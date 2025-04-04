@@ -1,0 +1,27 @@
+from sqlalchemy import create_engine
+from sqlalchemy.orm import sessionmaker
+from .utils import logger
+from src.config.config import settings  # Importing Pydantic settings
+
+# Get database URL from Pydantic settings
+DB_URL = settings.DATABASE_URL
+
+# Debugging: Ensure DB_URL is loaded
+if not DB_URL:
+    raise ValueError("❌ Database URL is missing! Check your .env file.")
+
+try:
+    # Create database engine
+    engine = create_engine(DB_URL)
+
+    # Create session factory
+    local_session = sessionmaker(autocommit=False, autoflush=False, bind=engine)
+    
+    logger.logging_error("✅ Database connected successfully!")  # Log successful connection
+except Exception as e:
+    error_message = f"❌ Database Connection Error: {str(e)}"
+    
+    logger.logging_error(error_message)  # Log error
+    
+    # Fallback: Print error if logging fails
+    print(error_message)

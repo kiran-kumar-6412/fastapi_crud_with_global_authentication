@@ -1,0 +1,633 @@
+2025-04-03 19:18:53,205-ERROR-Database Connection Error Expected string or URL object, got None
+2025-04-03 19:19:52,055-ERROR-Database Connection Error Expected string or URL object, got None
+2025-04-03 19:19:54,238-ERROR-Database Connection Error Expected string or URL object, got None
+2025-04-03 19:20:04,171-ERROR-Database Connection Error Expected string or URL object, got None
+2025-04-03 19:20:11,227-ERROR-Database Connection Error Expected string or URL object, got None
+2025-04-03 19:21:31,169-ERROR-Database Connection Error Expected string or URL object, got None
+2025-04-03 19:21:34,881-ERROR-Database Connection Error Expected string or URL object, got None
+2025-04-03 19:21:48,883-ERROR-Database Connection Error Expected string or URL object, got None
+2025-04-03 19:22:25,434-ERROR-Database Connection Error Expected string or URL object, got None
+2025-04-03 19:22:29,092-ERROR-Database Connection Error Expected string or URL object, got None
+2025-04-03 19:22:31,096-ERROR-Database Connection Error Expected string or URL object, got None
+2025-04-03 19:22:42,180-ERROR-Database Connection Error Expected string or URL object, got None
+2025-04-03 19:23:07,328-ERROR-Database Connection Error Expected string or URL object, got None
+2025-04-03 19:23:42,286-ERROR-Database Connection Error Expected string or URL object, got None
+2025-04-03 19:42:22,755-ERROR-\u2705 Database connected successfully!
+2025-04-03 19:42:45,233-ERROR-\u2705 Database connected successfully!
+2025-04-03 19:42:49,743-ERROR-\u2705 Database connected successfully!
+2025-04-03 19:43:11,716-ERROR-\u2705 Database connected successfully!
+2025-04-03 19:43:14,088-ERROR-\u2705 Database connected successfully!
+2025-04-03 19:43:38,179-ERROR-\u2705 Database connected successfully!
+2025-04-03 19:43:43,929-ERROR-\u2705 Database connected successfully!
+2025-04-03 19:44:01,968-ERROR-\u2705 Database connected successfully!
+2025-04-03 19:44:13,701-ERROR-\u2705 Database connected successfully!
+2025-04-03 19:44:13,708-ERROR-Error in Icluding Routes : module 'src.controller.user_routes' has no attribute 'routes'
+2025-04-03 19:44:39,240-ERROR-\u2705 Database connected successfully!
+2025-04-03 19:44:39,258-ERROR-Error in Icluding Routes : module 'src.controller.user_routes' has no attribute 'routes'
+2025-04-03 19:44:48,969-ERROR-\u2705 Database connected successfully!
+2025-04-03 19:44:48,986-ERROR-Error in Icluding Routes : module 'src.controller.user_routes' has no attribute 'routes'
+2025-04-03 19:45:00,047-ERROR-\u2705 Database connected successfully!
+2025-04-03 19:45:00,061-ERROR-Error in Icluding Routes : module 'src.controller.user_routes' has no attribute 'routes'
+2025-04-03 19:45:00,201-ERROR-Error In main Intializing app (in table 'users', column 'username'): VARCHAR requires a length on dialect mysql
+2025-04-03 20:09:49,694-ERROR-\u2705 Database connected successfully!
+2025-04-03 20:09:49,728-ERROR-Error in Icluding Routes : module 'src.controller.user_routes' has no attribute 'routes'
+2025-04-03 20:09:49,760-ERROR-Error In main Intializing app (in table 'users', column 'username'): VARCHAR requires a length on dialect mysql
+2025-04-03 20:11:23,803-ERROR-\u2705 Database connected successfully!
+2025-04-03 20:11:23,822-ERROR-Error in Icluding Routes : module 'src.controller.user_routes' has no attribute 'routes'
+2025-04-03 20:11:23,896-ERROR-Error In main Intializing app (in table 'users', column 'username'): VARCHAR requires a length on dialect mysql
+2025-04-03 20:15:42,423-ERROR-\u2705 Database connected successfully!
+2025-04-03 20:15:42,453-ERROR-Error in Icluding Routes : module 'src.controller.user_routes' has no attribute 'routes'
+2025-04-03 20:15:42,845-ERROR-Error In main Intializing app 'APIRouter' object is not iterable
+2025-04-03 20:18:17,514-ERROR-\u2705 Database connected successfully!
+2025-04-03 20:18:17,528-ERROR-Error in Icluding Routes : module 'src.controller.user_routes' has no attribute 'routes'
+2025-04-03 20:18:57,223-ERROR-\u2705 Database connected successfully!
+2025-04-03 20:18:57,248-ERROR-Error in Icluding Routes : module 'src.controller.user_routes' has no attribute 'routes'
+2025-04-03 20:18:57,298-ERROR-Error Initializing App: 'APIRouter' object is not iterable
+2025-04-03 20:19:28,985-ERROR-\u2705 Database connected successfully!
+2025-04-03 20:19:28,988-ERROR-Error in Icluding Routes : module 'src.controller.user_routes' has no attribute 'routes'
+2025-04-03 20:21:10,579-ERROR-\u2705 Database connected successfully!
+2025-04-03 20:21:10,605-ERROR-Error in Icluding Routes : module 'src.controller.user_routes' has no attribute 'routes'
+2025-04-03 20:21:28,589-ERROR-\u2705 Database connected successfully!
+2025-04-03 20:21:57,951-ERROR-\u2705 Database connected successfully!
+2025-04-03 20:21:57,967-ERROR-Error in Icluding Routes : module 'src.controller.user_routes' has no attribute 'routes'
+2025-04-03 20:22:29,750-ERROR-\u2705 Database connected successfully!
+2025-04-03 20:23:54,785-ERROR-\u2705 Database connected successfully!
+2025-04-03 20:23:54,809-ERROR-Error in Icluding Routes : module 'src.controller.user_routes' has no attribute 'routes'
+2025-04-03 20:24:26,733-ERROR-\u2705 Database connected successfully!
+2025-04-03 20:24:30,971-ERROR-\u2705 Database connected successfully!
+2025-04-03 20:24:34,380-ERROR-\u2705 Database connected successfully!
+2025-04-03 20:24:36,764-ERROR-\u2705 Database connected successfully!
+2025-04-03 20:24:50,285-ERROR-\u2705 Database connected successfully!
+2025-04-03 20:24:50,295-ERROR-Error in Icluding Routes : name 'user_route' is not defined
+2025-04-03 20:24:58,671-ERROR-\u2705 Database connected successfully!
+2025-04-03 20:26:21,317-ERROR-\u2705 Database connected successfully!
+2025-04-03 20:26:21,355-ERROR-Error in Icluding Routes : name 'route' is not defined
+2025-04-03 20:26:26,217-ERROR-\u2705 Database connected successfully!
+2025-04-03 20:26:58,239-ERROR-\u2705 Database connected successfully!
+2025-04-03 20:27:00,401-ERROR-\u2705 Database connected successfully!
+2025-04-03 20:27:15,142-ERROR-\u2705 Database connected successfully!
+2025-04-03 20:27:47,706-ERROR-\u2705 Database connected successfully!
+2025-04-03 20:28:07,591-ERROR-\u2705 Database connected successfully!
+2025-04-03 20:28:13,468-ERROR-\u2705 Database connected successfully!
+2025-04-03 20:28:15,769-ERROR-\u2705 Database connected successfully!
+2025-04-03 20:28:23,758-ERROR-\u2705 Database connected successfully!
+2025-04-03 20:28:31,568-ERROR-\u2705 Database connected successfully!
+2025-04-03 20:29:42,508-ERROR-\u2705 Database connected successfully!
+2025-04-03 20:31:42,241-ERROR-Dependencies Injuction of DB : cannot access local variable 'user' where it is not associated with a value
+2025-04-03 20:36:01,494-ERROR-\u2705 Database connected successfully!
+2025-04-03 20:36:09,109-ERROR-Dependency Injection Error in DB: cannot access local variable 'user' where it is not associated with a value
+2025-04-03 20:40:38,776-ERROR-\u2705 Database connected successfully!
+2025-04-03 20:41:01,176-ERROR-Dependency Injection Error in DB: src.models.user.User() argument after ** must be a mapping, not UserCreate
+2025-04-03 20:41:02,808-ERROR-\u2705 Database connected successfully!
+2025-04-03 20:41:08,370-ERROR-Dependency Injection Error in DB: Error creating user: src.models.user.User() argument after ** must be a mapping, not UserCreate
+2025-04-03 20:41:11,443-ERROR-Dependency Injection Error in DB: Error creating user: src.models.user.User() argument after ** must be a mapping, not UserCreate
+2025-04-03 20:44:34,791-ERROR-Dependency Injection Error in DB: Error creating user: src.models.user.User() argument after ** must be a mapping, not UserCreate
+2025-04-03 20:44:36,359-ERROR-\u2705 Database connected successfully!
+2025-04-03 20:44:36,425-ERROR-Dependency Injection Error in DB: Error creating user: 'full_name' is an invalid keyword argument for User
+2025-04-03 20:48:06,773-ERROR-\u2705 Database connected successfully!
+2025-04-03 20:48:38,462-ERROR-\u2705 Database connected successfully!
+2025-04-03 20:49:10,060-ERROR-\u2705 Database connected successfully!
+2025-04-03 20:49:19,726-ERROR-\u2705 Database connected successfully!
+2025-04-03 20:50:32,066-ERROR-\u2705 Database connected successfully!
+2025-04-03 20:53:41,193-ERROR-\u2705 Database connected successfully!
+2025-04-03 20:55:25,027-ERROR-\u2705 Database connected successfully!
+2025-04-03 20:56:08,306-ERROR-\u2705 Database connected successfully!
+2025-04-03 20:57:13,229-ERROR-\u2705 Database connected successfully!
+2025-04-03 20:58:36,023-ERROR-\u2705 Database connected successfully!
+2025-04-03 20:59:04,514-ERROR-\u2705 Database connected successfully!
+2025-04-03 20:59:54,310-ERROR-\u2705 Database connected successfully!
+2025-04-03 21:01:22,066-ERROR-\u2705 Database connected successfully!
+2025-04-03 21:02:43,861-ERROR-\u2705 Database connected successfully!
+2025-04-03 21:04:49,708-ERROR-\u2705 Database connected successfully!
+2025-04-03 21:05:37,115-ERROR-\u2705 Database connected successfully!
+2025-04-03 21:06:43,639-ERROR-\u2705 Database connected successfully!
+2025-04-03 21:07:15,238-ERROR-\u2705 Database connected successfully!
+2025-04-03 21:07:47,747-ERROR-\u2705 Database connected successfully!
+2025-04-03 21:08:07,810-ERROR-\u2705 Database connected successfully!
+2025-04-03 21:10:27,252-ERROR-\u2705 Database connected successfully!
+2025-04-03 21:12:34,112-ERROR-\u2705 Database connected successfully!
+2025-04-03 21:12:34,191-ERROR-Error creating user: __init__() takes 1 positional argument but 2 were given
+2025-04-03 21:13:14,405-ERROR-Error creating user: __init__() takes 1 positional argument but 2 were given
+2025-04-03 21:13:16,178-ERROR-\u2705 Database connected successfully!
+2025-04-03 21:13:16,270-ERROR-Error creating user: src.models.user.User() argument after ** must be a mapping, not UserCreate
+2025-04-03 21:15:21,204-ERROR-\u2705 Database connected successfully!
+2025-04-03 21:15:24,589-ERROR-Error creating user: __init__() got an unexpected keyword argument 'username'
+2025-04-03 21:15:53,007-ERROR-\u2705 Database connected successfully!
+2025-04-03 21:15:53,100-ERROR-Error creating user: __init__() got an unexpected keyword argument 'username'
+2025-04-03 21:15:55,344-ERROR-Error creating user: __init__() got an unexpected keyword argument 'username'
+2025-04-03 21:15:56,195-ERROR-Error creating user: __init__() got an unexpected keyword argument 'username'
+2025-04-03 21:15:56,425-ERROR-Error creating user: __init__() got an unexpected keyword argument 'username'
+2025-04-03 21:15:56,986-ERROR-Error creating user: __init__() got an unexpected keyword argument 'username'
+2025-04-03 21:16:04,724-ERROR-Error creating user: __init__() got an unexpected keyword argument 'username'
+2025-04-03 21:17:14,937-ERROR-Error creating user: __init__() got an unexpected keyword argument 'username'
+2025-04-03 21:17:16,738-ERROR-\u2705 Database connected successfully!
+2025-04-03 21:17:16,823-ERROR-Error creating user: src.models.user.User() argument after ** must be a mapping, not UserCreate
+2025-04-03 21:17:19,338-ERROR-Error creating user: src.models.user.User() argument after ** must be a mapping, not UserCreate
+2025-04-04 12:20:02,185-ERROR-\u2705 Database connected successfully!
+2025-04-04 12:20:15,548-ERROR-Error creating user: src.models.user.User() argument after ** must be a mapping, not UserCreate
+2025-04-04 12:21:29,809-ERROR-Error creating user: src.models.user.User() argument after ** must be a mapping, not UserCreate
+2025-04-04 12:21:33,290-ERROR-\u2705 Database connected successfully!
+2025-04-04 12:21:33,516-ERROR-Error creating user: src.models.user.User() argument after ** must be a mapping, not UserCreate
+2025-04-04 12:23:21,952-ERROR-\u2705 Database connected successfully!
+2025-04-04 12:25:56,057-ERROR-Error creating user: src.models.user.User() argument after ** must be a mapping, not UserCreate
+2025-04-04 12:26:00,058-ERROR-\u2705 Database connected successfully!
+2025-04-04 12:26:00,199-ERROR-Error creating user: src.models.user.User() argument after ** must be a mapping, not UserCreate
+2025-04-04 12:27:53,258-ERROR-\u2705 Database connected successfully!
+2025-04-04 12:28:26,246-ERROR-\u2705 Database connected successfully!
+2025-04-04 12:28:33,284-ERROR-Error creating user: '_GeneratorContextManager' object has no attribute 'add'
+2025-04-04 12:28:34,113-ERROR-Error creating user: '_GeneratorContextManager' object has no attribute 'add'
+2025-04-04 12:29:47,448-ERROR-Error creating user: '_GeneratorContextManager' object has no attribute 'add'
+2025-04-04 12:29:51,853-ERROR-\u2705 Database connected successfully!
+2025-04-04 12:29:52,102-ERROR-Error creating user: '_GeneratorContextManager' object has no attribute 'add'
+2025-04-04 12:30:10,019-ERROR-Error creating user: '_GeneratorContextManager' object has no attribute 'add'
+2025-04-04 12:30:12,996-ERROR-\u2705 Database connected successfully!
+2025-04-04 12:30:33,831-ERROR-\u2705 Database connected successfully!
+2025-04-04 12:30:33,953-ERROR-Error creating user: '_GeneratorContextManager' object has no attribute 'add'
+2025-04-04 12:32:57,376-ERROR-\u2705 Database connected successfully!
+2025-04-04 12:33:18,775-ERROR-\u2705 Database connected successfully!
+2025-04-04 12:34:48,713-ERROR-\u2705 Database connected successfully!
+2025-04-04 12:35:22,828-ERROR-\u2705 Database connected successfully!
+2025-04-04 12:35:25,974-ERROR-\u2705 Database connected successfully!
+2025-04-04 12:35:59,446-ERROR-\u2705 Database connected successfully!
+2025-04-04 12:36:32,662-ERROR-\u2705 Database connected successfully!
+2025-04-04 12:37:05,761-ERROR-\u2705 Database connected successfully!
+2025-04-04 12:38:13,327-ERROR-Error creating user: '_GeneratorContextManager' object has no attribute 'add'
+2025-04-04 12:38:16,537-ERROR-\u2705 Database connected successfully!
+2025-04-04 12:38:49,789-ERROR-\u2705 Database connected successfully!
+2025-04-04 12:39:00,004-ERROR-Error creating user: 'Depends' object has no attribute 'add'
+2025-04-04 12:39:02,955-ERROR-\u2705 Database connected successfully!
+2025-04-04 12:39:03,024-ERROR-Error creating user: 'Depends' object has no attribute 'add'
+2025-04-04 12:39:06,553-ERROR-Error creating user: 'Depends' object has no attribute 'add'
+2025-04-04 12:40:31,967-ERROR-\u2705 Database connected successfully!
+2025-04-04 12:41:05,511-ERROR-\u2705 Database connected successfully!
+2025-04-04 12:41:05,640-ERROR-Error creating user: 'Depends' object has no attribute 'add'
+2025-04-04 12:41:09,582-ERROR-Error creating user: 'Depends' object has no attribute 'add'
+2025-04-04 12:43:29,501-ERROR-\u2705 Database connected successfully!
+2025-04-04 12:44:02,475-ERROR-\u2705 Database connected successfully!
+2025-04-04 12:44:09,239-ERROR-Error creating user: Class 'src.schemas.user.UserCreate' is not mapped
+2025-04-04 12:44:10,010-ERROR-Error creating user: Class 'src.schemas.user.UserCreate' is not mapped
+2025-04-04 12:47:15,316-ERROR-Error creating user: Class 'src.schemas.user.UserCreate' is not mapped
+2025-04-04 12:47:18,513-ERROR-\u2705 Database connected successfully!
+2025-04-04 12:47:18,666-ERROR-Database error: 'UserCreate' object has no attribute 'dic'
+2025-04-04 12:48:07,609-ERROR-Database error: 'UserCreate' object has no attribute 'dic'
+2025-04-04 12:48:10,718-ERROR-\u2705 Database connected successfully!
+2025-04-04 12:48:10,825-ERROR-Error creating user: __init__() takes 1 positional argument but 2 were given
+2025-04-04 12:48:46,605-ERROR-Error creating user: __init__() takes 1 positional argument but 2 were given
+2025-04-04 12:48:49,657-ERROR-\u2705 Database connected successfully!
+2025-04-04 12:48:49,823-ERROR-Error creating user: src.models.user.User() argument after ** must be a mapping, not UserCreate
+2025-04-04 12:49:10,677-ERROR-Error creating user: src.models.user.User() argument after ** must be a mapping, not UserCreate
+2025-04-04 12:49:13,766-ERROR-\u2705 Database connected successfully!
+2025-04-04 12:49:13,922-ERROR-Error creating user: __init__() takes 1 positional argument but 6 were given
+2025-04-04 12:49:39,308-ERROR-\u2705 Database connected successfully!
+2025-04-04 12:51:35,270-ERROR-Error creating user: src.models.user.User() argument after ** must be a mapping, not UserCreate
+2025-04-04 12:51:38,866-ERROR-\u2705 Database connected successfully!
+2025-04-04 12:51:39,012-ERROR-Error creating user: src.models.user.User() argument after ** must be a mapping, not UserCreate
+2025-04-04 12:54:03,314-ERROR-\u2705 Database connected successfully!
+2025-04-04 12:54:36,346-ERROR-\u2705 Database connected successfully!
+2025-04-04 12:54:51,663-ERROR-Error creating user: 'UserCreate' object has no attribute 'dic'
+2025-04-04 12:54:54,993-ERROR-\u2705 Database connected successfully!
+2025-04-04 12:54:55,158-ERROR-Error creating user: (pymysql.err.OperationalError) (1054, "Unknown column 'password' in 'field list'")
+[SQL: INSERT INTO users (username, email, password, is_active, `role`) VALUES (%(username)s, %(email)s, %(password)s, %(is_active)s, %(role)s)]
+[parameters: {'username': 'string', 'email': 'user@example.com', 'password': 'string', 'is_active': 1, 'role': 'vendor'}]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-04-04 12:55:28,051-ERROR-\u2705 Database connected successfully!
+2025-04-04 12:55:28,195-ERROR-Error creating user: (pymysql.err.OperationalError) (1054, "Unknown column 'password' in 'field list'")
+[SQL: INSERT INTO users (username, email, password, is_active, `role`) VALUES (%(username)s, %(email)s, %(password)s, %(is_active)s, %(role)s)]
+[parameters: {'username': 'string', 'email': 'user@example.com', 'password': 'string', 'is_active': 1, 'role': 'vendor'}]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-04-04 12:55:29,332-ERROR-Error creating user: (pymysql.err.OperationalError) (1054, "Unknown column 'password' in 'field list'")
+[SQL: INSERT INTO users (username, email, password, is_active, `role`) VALUES (%(username)s, %(email)s, %(password)s, %(is_active)s, %(role)s)]
+[parameters: {'username': 'string', 'email': 'user@example.com', 'password': 'string', 'is_active': 1, 'role': 'vendor'}]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-04-04 12:55:55,987-ERROR-Error creating user: (pymysql.err.OperationalError) (1054, "Unknown column 'password' in 'field list'")
+[SQL: INSERT INTO users (username, email, password, is_active, `role`) VALUES (%(username)s, %(email)s, %(password)s, %(is_active)s, %(role)s)]
+[parameters: {'username': 'string', 'email': 'user@example.com', 'password': 'string', 'is_active': 1, 'role': 'vendor'}]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-04-04 12:55:58,801-ERROR-\u2705 Database connected successfully!
+2025-04-04 12:55:58,951-ERROR-Error creating user: __init__() takes 1 positional argument but 2 were given
+2025-04-04 12:56:09,166-ERROR-Error creating user: __init__() takes 1 positional argument but 2 were given
+2025-04-04 12:56:09,913-ERROR-Error creating user: __init__() takes 1 positional argument but 2 were given
+2025-04-04 12:56:32,107-ERROR-\u2705 Database connected successfully!
+2025-04-04 12:56:39,198-ERROR-Error creating user: (pymysql.err.OperationalError) (1054, "Unknown column 'password' in 'field list'")
+[SQL: INSERT INTO users (username, email, password, is_active, `role`) VALUES (%(username)s, %(email)s, %(password)s, %(is_active)s, %(role)s)]
+[parameters: {'username': 'string', 'email': 'user@example.com', 'password': 'string', 'is_active': 1, 'role': 'vendor'}]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-04-04 12:56:41,860-ERROR-\u2705 Database connected successfully!
+2025-04-04 12:56:42,005-ERROR-Error creating user: (pymysql.err.OperationalError) (1054, "Unknown column 'password' in 'field list'")
+[SQL: INSERT INTO users (username, email, password, is_active, `role`) VALUES (%(username)s, %(email)s, %(password)s, %(is_active)s, %(role)s)]
+[parameters: {'username': 'string', 'email': 'user@example.com', 'password': 'string', 'is_active': 1, 'role': 'vendor'}]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-04-04 12:59:16,840-ERROR-Error creating user: (pymysql.err.OperationalError) (1054, "Unknown column 'password' in 'field list'")
+[SQL: INSERT INTO users (username, email, password, is_active, `role`) VALUES (%(username)s, %(email)s, %(password)s, %(is_active)s, %(role)s)]
+[parameters: {'username': 'string', 'email': 'user@example.com', 'password': 'string', 'is_active': 1, 'role': 'vendor'}]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-04-04 12:59:20,305-ERROR-\u2705 Database connected successfully!
+2025-04-04 12:59:20,427-ERROR-Error creating user: (pymysql.err.OperationalError) (1054, "Unknown column 'password' in 'field list'")
+[SQL: INSERT INTO users (username, email, password, is_active, `role`) VALUES (%(username)s, %(email)s, %(password)s, %(is_active)s, %(role)s)]
+[parameters: {'username': 'string', 'email': 'user@example.com', 'password': 'string', 'is_active': 1, 'role': 'vendor'}]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-04-04 12:59:34,901-ERROR-Error creating user: (pymysql.err.OperationalError) (1054, "Unknown column 'password' in 'field list'")
+[SQL: INSERT INTO users (username, email, password, is_active, `role`) VALUES (%(username)s, %(email)s, %(password)s, %(is_active)s, %(role)s)]
+[parameters: {'username': 'string', 'email': 'user@example.com', 'password': 'string', 'is_active': 1, 'role': 'vendor'}]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-04-04 12:59:35,705-ERROR-Error creating user: (pymysql.err.OperationalError) (1054, "Unknown column 'password' in 'field list'")
+[SQL: INSERT INTO users (username, email, password, is_active, `role`) VALUES (%(username)s, %(email)s, %(password)s, %(is_active)s, %(role)s)]
+[parameters: {'username': 'string', 'email': 'user@example.com', 'password': 'string', 'is_active': 1, 'role': 'vendor'}]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-04-04 12:59:36,783-ERROR-Error creating user: (pymysql.err.OperationalError) (1054, "Unknown column 'password' in 'field list'")
+[SQL: INSERT INTO users (username, email, password, is_active, `role`) VALUES (%(username)s, %(email)s, %(password)s, %(is_active)s, %(role)s)]
+[parameters: {'username': 'string', 'email': 'user@example.com', 'password': 'string', 'is_active': 1, 'role': 'vendor'}]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-04-04 12:59:44,611-ERROR-Error creating user: (pymysql.err.OperationalError) (1054, "Unknown column 'password' in 'field list'")
+[SQL: INSERT INTO users (username, email, password, is_active, `role`) VALUES (%(username)s, %(email)s, %(password)s, %(is_active)s, %(role)s)]
+[parameters: {'username': 'string', 'email': 'user@example.com', 'password': 'string', 'is_active': 1, 'role': 'vendor'}]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-04-04 13:06:50,485-ERROR-Error creating user: (pymysql.err.OperationalError) (1054, "Unknown column 'role' in 'field list'")
+[SQL: INSERT INTO users (username, email, password, is_active, `role`) VALUES (%(username)s, %(email)s, %(password)s, %(is_active)s, %(role)s)]
+[parameters: {'username': 'string', 'email': 'user@example.com', 'password': 'string', 'is_active': 1, 'role': 'vendor'}]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-04-04 13:08:52,384-ERROR-Error creating user: (pymysql.err.IntegrityError) (1062, "Duplicate entry 'user@example.com' for key 'users.ix_users_email'")
+[SQL: INSERT INTO users (username, email, password, is_active, `role`) VALUES (%(username)s, %(email)s, %(password)s, %(is_active)s, %(role)s)]
+[parameters: {'username': 'string', 'email': 'user@example.com', 'password': 'string', 'is_active': 1, 'role': 'vendor'}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-04-04 13:08:53,264-ERROR-Error creating user: (pymysql.err.IntegrityError) (1062, "Duplicate entry 'user@example.com' for key 'users.ix_users_email'")
+[SQL: INSERT INTO users (username, email, password, is_active, `role`) VALUES (%(username)s, %(email)s, %(password)s, %(is_active)s, %(role)s)]
+[parameters: {'username': 'string', 'email': 'user@example.com', 'password': 'string', 'is_active': 1, 'role': 'vendor'}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-04-04 13:10:25,375-ERROR-Error creating user: (pymysql.err.IntegrityError) (1062, "Duplicate entry 'string' for key 'users.ix_users_username'")
+[SQL: INSERT INTO users (username, email, password, is_active, `role`) VALUES (%(username)s, %(email)s, %(password)s, %(is_active)s, %(role)s)]
+[parameters: {'username': 'string', 'email': 'user1@example.com', 'password': 'string', 'is_active': 1, 'role': 'vendor'}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-04-04 13:13:20,316-ERROR-\u2705 Database connected successfully!
+2025-04-04 13:17:57,418-ERROR-\u2705 Database connected successfully!
+2025-04-04 13:18:29,374-ERROR-\u2705 Database connected successfully!
+2025-04-04 13:19:01,916-ERROR-\u2705 Database connected successfully!
+2025-04-04 13:19:34,096-ERROR-\u2705 Database connected successfully!
+2025-04-04 13:20:02,921-ERROR-\u2705 Database connected successfully!
+2025-04-04 13:20:35,356-ERROR-\u2705 Database connected successfully!
+2025-04-04 13:21:06,926-ERROR-\u2705 Database connected successfully!
+2025-04-04 13:23:18,173-ERROR-\u2705 Database connected successfully!
+2025-04-04 13:24:35,131-ERROR-\u2705 Database connected successfully!
+2025-04-04 13:27:05,218-ERROR-\u2705 Database connected successfully!
+2025-04-04 13:27:37,089-ERROR-\u2705 Database connected successfully!
+2025-04-04 13:28:09,088-ERROR-\u2705 Database connected successfully!
+2025-04-04 13:28:32,600-ERROR-\u2705 Database connected successfully!
+2025-04-04 13:29:15,577-ERROR-Database error: UserRepository.all_users() missing 1 required positional argument: 'db'
+2025-04-04 13:29:54,548-ERROR-Database error: UserRepository.all_users() missing 1 required positional argument: 'db'
+2025-04-04 13:29:56,152-ERROR-\u2705 Database connected successfully!
+2025-04-04 13:31:22,310-ERROR-\u2705 Database connected successfully!
+2025-04-04 13:32:16,636-ERROR-\u2705 Database connected successfully!
+2025-04-04 13:33:49,770-ERROR-\u2705 Database connected successfully!
+2025-04-04 13:33:49,830-ERROR-Database error: 1 validation errors:
+  {'type': 'model_attributes_type', 'loc': ('response',), 'msg': 'Input should be a valid dictionary or object to extract fields from', 'input': [<src.models.user.User object at 0x0000021D6434FB90>, <src.models.user.User object at 0x0000021D6419C490>]}
+
+2025-04-04 13:34:21,456-ERROR-\u2705 Database connected successfully!
+2025-04-04 13:34:24,593-ERROR-\u2705 Database connected successfully!
+2025-04-04 13:34:27,636-ERROR-Database error: 1 validation errors:
+  {'type': 'model_attributes_type', 'loc': ('response',), 'msg': 'Input should be a valid dictionary or object to extract fields from', 'input': [<src.models.user.User object at 0x000001C1D716F990>, <src.models.user.User object at 0x000001C1D4538690>]}
+
+2025-04-04 13:34:28,464-ERROR-Database error: 1 validation errors:
+  {'type': 'model_attributes_type', 'loc': ('response',), 'msg': 'Input should be a valid dictionary or object to extract fields from', 'input': [<src.models.user.User object at 0x000001C1D75B4950>, <src.models.user.User object at 0x000001C1D75B4990>]}
+
+2025-04-04 13:34:31,087-ERROR-Database error: 1 validation errors:
+  {'type': 'model_attributes_type', 'loc': ('response',), 'msg': 'Input should be a valid dictionary or object to extract fields from', 'input': [<src.models.user.User object at 0x000001C1D75B55D0>, <src.models.user.User object at 0x000001C1D75B5650>]}
+
+2025-04-04 13:34:58,747-ERROR-Database error: 1 validation errors:
+  {'type': 'model_attributes_type', 'loc': ('response',), 'msg': 'Input should be a valid dictionary or object to extract fields from', 'input': [<src.models.user.User object at 0x000001C1D75B5F50>, <src.models.user.User object at 0x000001C1D75B5FD0>]}
+
+2025-04-04 13:35:00,541-ERROR-\u2705 Database connected successfully!
+2025-04-04 13:35:00,602-ERROR-Database error: 1 validation errors:
+  {'type': 'model_attributes_type', 'loc': ('response',), 'msg': 'Input should be a valid dictionary or object to extract fields from', 'input': [<src.models.user.User object at 0x00000205F2943850>, <src.models.user.User object at 0x00000205F29438D0>]}
+
+2025-04-04 13:36:06,760-ERROR-Database error: 1 validation errors:
+  {'type': 'model_attributes_type', 'loc': ('response',), 'msg': 'Input should be a valid dictionary or object to extract fields from', 'input': [<src.models.user.User object at 0x00000205F2D84F90>, <src.models.user.User object at 0x00000205F28E2ED0>]}
+
+2025-04-04 13:36:08,325-ERROR-\u2705 Database connected successfully!
+2025-04-04 13:36:08,427-ERROR-Database error: 1 validation errors:
+  {'type': 'model_attributes_type', 'loc': ('response',), 'msg': 'Input should be a valid dictionary or object to extract fields from', 'input': [<src.models.user.User object at 0x000001A2E19D35D0>, <src.models.user.User object at 0x000001A2E19D3650>]}
+
+2025-04-04 13:36:10,991-ERROR-Database error: 1 validation errors:
+  {'type': 'model_attributes_type', 'loc': ('response',), 'msg': 'Input should be a valid dictionary or object to extract fields from', 'input': [<src.models.user.User object at 0x000001A2E1E14790>, <src.models.user.User object at 0x000001A2E1E14810>]}
+
+2025-04-04 13:37:32,381-ERROR-Database error: 1 validation errors:
+  {'type': 'model_attributes_type', 'loc': ('response',), 'msg': 'Input should be a valid dictionary or object to extract fields from', 'input': [<src.models.user.User object at 0x000001A2E1E15B50>, <src.models.user.User object at 0x000001A2E1E15BD0>]}
+
+2025-04-04 13:37:33,999-ERROR-\u2705 Database connected successfully!
+2025-04-04 13:37:34,083-ERROR-Database error: 2 validation errors:
+  {'type': 'string_type', 'loc': ('response', 0, 'id'), 'msg': 'Input should be a valid string', 'input': 1}
+  {'type': 'string_type', 'loc': ('response', 1, 'id'), 'msg': 'Input should be a valid string', 'input': 5}
+
+2025-04-04 13:38:39,113-ERROR-Database error: 2 validation errors:
+  {'type': 'string_type', 'loc': ('response', 0, 'id'), 'msg': 'Input should be a valid string', 'input': 1}
+  {'type': 'string_type', 'loc': ('response', 1, 'id'), 'msg': 'Input should be a valid string', 'input': 5}
+
+2025-04-04 13:38:40,789-ERROR-\u2705 Database connected successfully!
+2025-04-04 13:40:56,534-ERROR-\u2705 Database connected successfully!
+2025-04-04 13:41:49,254-ERROR-\u2705 Database connected successfully!
+2025-04-04 13:46:49,721-ERROR-\u2705 Database connected successfully!
+2025-04-04 13:47:21,596-ERROR-\u2705 Database connected successfully!
+2025-04-04 13:47:48,596-ERROR-\u2705 Database connected successfully!
+2025-04-04 13:48:17,581-ERROR-\u2705 Database connected successfully!
+2025-04-04 13:48:21,807-ERROR-\u2705 Database connected successfully!
+2025-04-04 13:48:21,890-ERROR-Database error: 1 validation errors:
+  {'type': 'list_type', 'loc': ('response',), 'msg': 'Input should be a valid list', 'input': <src.models.user.User object at 0x0000028F5BCD91D0>}
+
+2025-04-04 13:49:44,601-ERROR-Database error: 1 validation errors:
+  {'type': 'list_type', 'loc': ('response',), 'msg': 'Input should be a valid list', 'input': <src.models.user.User object at 0x0000028F5C0FE890>}
+
+2025-04-04 13:49:46,158-ERROR-\u2705 Database connected successfully!
+2025-04-04 13:49:47,221-ERROR-Database error: 1 validation errors:
+  {'type': 'list_type', 'loc': ('response',), 'msg': 'Input should be a valid list', 'input': <src.models.user.User object at 0x0000022E2092C350>}
+
+2025-04-04 13:49:47,767-ERROR-Database error: 1 validation errors:
+  {'type': 'list_type', 'loc': ('response',), 'msg': 'Input should be a valid list', 'input': <src.models.user.User object at 0x0000022E20D5CE50>}
+
+2025-04-04 13:50:27,308-ERROR-Database error: 1 validation errors:
+  {'type': 'list_type', 'loc': ('response',), 'msg': 'Input should be a valid list', 'input': <src.models.user.User object at 0x0000022E20D68ED0>}
+
+2025-04-04 13:50:51,697-ERROR-Database error: 1 validation errors:
+  {'type': 'list_type', 'loc': ('response',), 'msg': 'Input should be a valid list', 'input': <src.models.user.User object at 0x0000022E20D69490>}
+
+2025-04-04 13:50:53,273-ERROR-\u2705 Database connected successfully!
+2025-04-04 13:51:15,345-ERROR-\u2705 Database connected successfully!
+2025-04-04 13:51:15,412-ERROR-Database error: 1 validation errors:
+  {'type': 'list_type', 'loc': ('response',), 'msg': 'Input should be a valid list', 'input': <src.models.user.User object at 0x000001C2D10B28D0>}
+
+2025-04-04 13:51:15,444-ERROR-Database error: 1 validation errors:
+  {'type': 'list_type', 'loc': ('response',), 'msg': 'Input should be a valid list', 'input': <src.models.user.User object at 0x000001C2D10B8110>}
+
+2025-04-04 13:51:25,303-ERROR-Database error: 1 validation errors:
+  {'type': 'list_type', 'loc': ('response',), 'msg': 'Input should be a valid list', 'input': <src.models.user.User object at 0x000001C2D10B1890>}
+
+2025-04-04 13:51:27,101-ERROR-\u2705 Database connected successfully!
+2025-04-04 13:51:51,526-ERROR-\u2705 Database connected successfully!
+2025-04-04 13:51:54,268-ERROR-\u2705 Database connected successfully!
+2025-04-04 13:51:56,399-ERROR-\u2705 Database connected successfully!
+2025-04-04 13:52:00,990-ERROR-Database error: 1 validation errors:
+  {'type': 'list_type', 'loc': ('response',), 'msg': 'Input should be a valid list', 'input': <src.models.user.User object at 0x0000021B4C04C290>}
+
+2025-04-04 13:54:17,825-ERROR-\u2705 Database connected successfully!
+2025-04-04 13:54:29,850-ERROR-Database error: 1 validation errors:
+  {'type': 'model_attributes_type', 'loc': ('response',), 'msg': 'Input should be a valid dictionary or object to extract fields from', 'input': None}
+
+2025-04-04 13:56:54,566-ERROR-Database error: 1 validation errors:
+  {'type': 'model_attributes_type', 'loc': ('response',), 'msg': 'Input should be a valid dictionary or object to extract fields from', 'input': None}
+
+2025-04-04 13:56:56,298-ERROR-\u2705 Database connected successfully!
+2025-04-04 13:56:56,364-ERROR-Database error: user with id-8 not found: 404
+2025-04-04 13:56:56,405-ERROR-Database error: user with id-8 not found: 404
+2025-04-04 13:56:56,928-ERROR-Database error: user with id-8 not found: 404
+2025-04-04 13:56:57,132-ERROR-Database error: user with id-8 not found: 404
+2025-04-04 13:56:57,331-ERROR-Database error: user with id-8 not found: 404
+2025-04-04 13:56:58,627-ERROR-Database error: user with id-8 not found: 404
+2025-04-04 13:57:28,050-ERROR-\u2705 Database connected successfully!
+2025-04-04 13:57:33,016-ERROR-Database error: 404: Not Found
+2025-04-04 13:57:34,736-ERROR-\u2705 Database connected successfully!
+2025-04-04 13:57:34,845-ERROR-Database error: 404: user with id-8 not found
+2025-04-04 13:57:35,262-ERROR-Database error: 404: user with id-8 not found
+2025-04-04 13:57:35,468-ERROR-Database error: 404: user with id-8 not found
+2025-04-04 13:57:35,959-ERROR-Database error: 404: user with id-8 not found
+2025-04-04 13:57:36,166-ERROR-Database error: 404: user with id-8 not found
+2025-04-04 13:57:36,360-ERROR-Database error: 404: user with id-8 not found
+2025-04-04 13:57:36,559-ERROR-Database error: 404: user with id-8 not found
+2025-04-04 13:58:01,279-ERROR-Database error: 404: user with id-2 not found
+2025-04-04 15:55:52,374-ERROR-\u2705 Database connected successfully!
+2025-04-04 15:56:32,363-ERROR-\u2705 Database connected successfully!
+2025-04-04 15:57:12,563-ERROR-\u2705 Database connected successfully!
+2025-04-04 15:58:41,518-ERROR-\u2705 Database connected successfully!
+2025-04-04 15:58:52,212-ERROR-\u2705 Database connected successfully!
+2025-04-04 15:58:52,382-ERROR-Error Initializing App: 'cryptography' package is required for sha256_password or caching_sha2_password auth methods
+2025-04-04 16:02:49,101-ERROR-\u2705 Database connected successfully!
+2025-04-04 16:02:49,205-ERROR-Error Initializing App: 'cryptography' package is required for sha256_password or caching_sha2_password auth methods
+2025-04-04 16:03:04,737-ERROR-\u2705 Database connected successfully!
+2025-04-04 16:03:04,886-ERROR-Error Initializing App: 'cryptography' package is required for sha256_password or caching_sha2_password auth methods
+2025-04-04 16:07:21,129-ERROR-\u2705 Database connected successfully!
+2025-04-04 16:07:21,208-ERROR-Error Initializing App: 'cryptography' package is required for sha256_password or caching_sha2_password auth methods
+2025-04-04 16:08:22,178-ERROR-\u2705 Database connected successfully!
+2025-04-04 16:08:22,320-ERROR-Error Initializing App: 'cryptography' package is required for sha256_password or caching_sha2_password auth methods
+2025-04-04 16:10:45,072-ERROR-\u2705 Database connected successfully!
+2025-04-04 16:11:09,070-ERROR-Database error: 'UserCreate' object is not subscriptable
+2025-04-04 16:13:24,459-ERROR-\u2705 Database connected successfully!
+2025-04-04 16:14:32,074-ERROR-Error creating user: 'dict' object has no attribute 'dict'
+2025-04-04 16:14:36,060-ERROR-Error creating user: 'dict' object has no attribute 'dict'
+2025-04-04 16:18:24,777-ERROR-\u2705 Database connected successfully!
+2025-04-04 16:18:37,684-ERROR-USer 
+2025-04-04 16:18:41,185-ERROR-\u2705 Database connected successfully!
+2025-04-04 16:18:41,519-ERROR-USer Create Error 'UserCreate' object is not subscriptable
+2025-04-04 16:21:31,930-ERROR-USer Create Error 'UserCreate' object is not subscriptable
+2025-04-04 16:21:33,734-ERROR-\u2705 Database connected successfully!
+2025-04-04 16:21:34,390-ERROR-Error creating user: 'dict' object has no attribute 'dict'
+2025-04-04 16:24:33,509-ERROR-Error creating user: 'dict' object has no attribute 'dict'
+2025-04-04 16:24:35,303-ERROR-\u2705 Database connected successfully!
+2025-04-04 16:25:07,259-ERROR-\u2705 Database connected successfully!
+2025-04-04 16:26:04,512-ERROR-\u2705 Database connected successfully!
+2025-04-04 16:31:05,280-ERROR-\u2705 Database connected successfully!
+2025-04-04 16:31:28,133-ERROR-\u2705 Database connected successfully!
+2025-04-04 16:32:23,455-ERROR-\u2705 Database connected successfully!
+2025-04-04 16:37:23,916-ERROR-\u2705 Database connected successfully!
+2025-04-04 16:37:55,602-ERROR-\u2705 Database connected successfully!
+2025-04-04 16:38:27,272-ERROR-\u2705 Database connected successfully!
+2025-04-04 16:46:47,961-ERROR-\u2705 Database connected successfully!
+2025-04-04 16:47:21,641-ERROR-\u2705 Database connected successfully!
+2025-04-04 16:47:54,497-ERROR-\u2705 Database connected successfully!
+2025-04-04 16:48:26,637-ERROR-\u2705 Database connected successfully!
+2025-04-04 16:48:56,367-ERROR-\u2705 Database connected successfully!
+2025-04-04 16:49:04,294-ERROR-Error verify password hash could not be identified
+2025-04-04 16:49:04,294-ERROR-Database error: 404: Invalid Credentials
+2025-04-04 16:49:08,198-ERROR-Error verify password hash could not be identified
+2025-04-04 16:49:08,198-ERROR-Database error: 404: Invalid Credentials
+2025-04-04 16:49:17,199-ERROR-Error verify password hash could not be identified
+2025-04-04 16:49:17,201-ERROR-Database error: 404: Invalid Credentials
+2025-04-04 16:49:29,245-ERROR-Database error: 'NoneType' object has no attribute 'password'
+2025-04-04 16:50:53,916-ERROR-Database error: 'NoneType' object has no attribute 'password'
+2025-04-04 16:50:56,219-ERROR-\u2705 Database connected successfully!
+2025-04-04 16:50:56,371-ERROR-Database error: 'NoneType' object has no attribute 'password'
+2025-04-04 16:54:34,460-ERROR-Database error: 'NoneType' object has no attribute 'password'
+2025-04-04 16:54:36,689-ERROR-\u2705 Database connected successfully!
+2025-04-04 16:54:36,806-ERROR-Database error: 'NoneType' object has no attribute 'password'
+2025-04-04 16:56:43,485-ERROR-\u2705 Database connected successfully!
+2025-04-04 16:57:06,001-ERROR-Database error: 404: User not found
+2025-04-04 16:57:06,820-ERROR-Database error: 404: User not found
+2025-04-04 16:58:26,443-ERROR-Database error: 404: User not found
+2025-04-04 16:58:33,917-ERROR-Error verify password hash could not be identified
+2025-04-04 16:58:33,921-ERROR-Database error: 404: Invalid Credentials
+2025-04-04 16:59:47,717-ERROR-Error verify password hash could not be identified
+2025-04-04 16:59:47,717-ERROR-Database error: 404: Invalid Credentials
+2025-04-04 16:59:50,591-ERROR-\u2705 Database connected successfully!
+2025-04-04 17:00:23,144-ERROR-\u2705 Database connected successfully!
+2025-04-04 17:00:55,654-ERROR-\u2705 Database connected successfully!
+2025-04-04 17:01:28,351-ERROR-\u2705 Database connected successfully!
+2025-04-04 17:02:00,931-ERROR-\u2705 Database connected successfully!
+2025-04-04 17:02:33,424-ERROR-\u2705 Database connected successfully!
+2025-04-04 17:03:05,403-ERROR-\u2705 Database connected successfully!
+2025-04-04 17:04:38,123-ERROR-Token Create Error unsupported operand type(s) for +: 'datetime.datetime' and 'int'
+2025-04-04 17:04:39,987-ERROR-\u2705 Database connected successfully!
+2025-04-04 17:04:41,785-ERROR-Token Create Error unsupported operand type(s) for +: 'datetime.datetime' and 'int'
+2025-04-04 17:05:22,523-ERROR-Error verify password hash could not be identified
+2025-04-04 17:05:22,523-ERROR-Database error: 404: Invalid Credentials
+2025-04-04 17:05:29,650-ERROR-Token Create Error unsupported operand type(s) for +: 'datetime.datetime' and 'int'
+2025-04-04 17:05:34,034-ERROR-Token Create Error unsupported operand type(s) for +: 'datetime.datetime' and 'int'
+2025-04-04 17:07:01,595-ERROR-Token Create Error unsupported operand type(s) for +: 'datetime.datetime' and 'int'
+2025-04-04 17:07:03,345-ERROR-\u2705 Database connected successfully!
+2025-04-04 17:07:04,406-ERROR-Token Create Error unsupported operand type(s) for +: 'datetime.datetime' and 'int'
+2025-04-04 17:08:32,867-ERROR-Token Create Error unsupported operand type(s) for +: 'datetime.datetime' and 'int'
+2025-04-04 17:08:34,621-ERROR-\u2705 Database connected successfully!
+2025-04-04 17:13:35,238-ERROR-\u2705 Database connected successfully!
+2025-04-04 17:18:35,507-ERROR-\u2705 Database connected successfully!
+2025-04-04 17:19:07,674-ERROR-\u2705 Database connected successfully!
+2025-04-04 17:20:02,627-ERROR-\u2705 Database connected successfully!
+2025-04-04 17:57:02,799-ERROR-\u2705 Database connected successfully!
+2025-04-04 18:00:51,529-ERROR-\u2705 Database connected successfully!
+2025-04-04 18:00:56,624-ERROR-\u2705 Database connected successfully!
+2025-04-04 18:01:30,248-ERROR-\u2705 Database connected successfully!
+2025-04-04 18:01:30,382-ERROR-Form data requires "python-multipart" to be installed. 
+You can install "python-multipart" with: 
+
+pip install python-multipart
+
+2025-04-04 18:02:07,938-ERROR-\u2705 Database connected successfully!
+2025-04-04 18:07:07,410-ERROR-\u2705 Database connected successfully!
+2025-04-04 18:08:54,650-ERROR-\u2705 Database connected successfully!
+2025-04-04 18:09:28,554-ERROR-\u2705 Database connected successfully!
+2025-04-04 18:09:36,037-ERROR-\u2705 Database connected successfully!
+2025-04-04 18:10:09,624-ERROR-\u2705 Database connected successfully!
+2025-04-04 18:10:17,616-ERROR-\u2705 Database connected successfully!
+2025-04-04 18:10:25,480-ERROR-\u2705 Database connected successfully!
+2025-04-04 18:10:58,922-ERROR-\u2705 Database connected successfully!
+2025-04-04 18:11:32,703-ERROR-\u2705 Database connected successfully!
+2025-04-04 18:11:37,988-ERROR-\u2705 Database connected successfully!
+2025-04-04 18:12:07,322-ERROR-\u2705 Database connected successfully!
+2025-04-04 18:17:07,359-ERROR-\u2705 Database connected successfully!
+2025-04-04 18:17:32,232-ERROR-\u2705 Database connected successfully!
+2025-04-04 18:18:05,410-ERROR-\u2705 Database connected successfully!
+2025-04-04 18:23:07,434-ERROR-\u2705 Database connected successfully!
+2025-04-04 18:23:11,520-ERROR-\u2705 Database connected successfully!
+2025-04-04 18:29:47,867-ERROR-\u2705 Database connected successfully!
+2025-04-04 18:32:30,770-ERROR-\u2705 Database connected successfully!
+2025-04-04 18:32:36,865-ERROR-\u2705 Database connected successfully!
+2025-04-04 18:33:03,581-ERROR-\u2705 Database connected successfully!
+2025-04-04 18:36:13,269-ERROR-\u2705 Database connected successfully!
+2025-04-04 18:36:48,280-ERROR-\u2705 Database connected successfully!
+2025-04-04 18:38:20,513-ERROR-\u2705 Database connected successfully!
+2025-04-04 18:39:28,939-ERROR-\u2705 Database connected successfully!
+2025-04-04 18:39:34,057-ERROR-\u2705 Database connected successfully!
+2025-04-04 18:39:44,745-ERROR-\u2705 Database connected successfully!
+2025-04-04 18:42:46,948-ERROR-\u2705 Database connected successfully!
+2025-04-04 18:48:00,971-ERROR-\u2705 Database connected successfully!
+2025-04-04 18:48:15,791-ERROR-\u2705 Database connected successfully!
+2025-04-04 18:51:08,343-ERROR-\u2705 Database connected successfully!
+2025-04-04 18:58:57,824-ERROR-\u2705 Database connected successfully!
+2025-04-04 18:59:51,373-ERROR-\u2705 Database connected successfully!
+2025-04-04 19:01:49,468-ERROR-\u2705 Database connected successfully!
+2025-04-04 19:05:49,105-ERROR-\u2705 Database connected successfully!
+2025-04-04 19:07:27,510-ERROR-\u2705 Database connected successfully!
+2025-04-04 19:14:31,253-ERROR-\u2705 Database connected successfully!
+2025-04-04 19:17:14,397-ERROR-\u2705 Database connected successfully!
+2025-04-04 19:22:12,799-ERROR-\u2705 Database connected successfully!
+2025-04-04 19:22:45,220-ERROR-\u2705 Database connected successfully!
+2025-04-04 19:23:16,997-ERROR-\u2705 Database connected successfully!
+2025-04-04 19:28:17,540-ERROR-\u2705 Database connected successfully!
+2025-04-04 19:29:00,475-ERROR-Database error: 'str' object has no attribute 'role'
+2025-04-04 19:29:07,241-ERROR-Database error: 'str' object has no attribute 'role'
+2025-04-04 19:29:23,226-ERROR-Database error: 'str' object has no attribute 'role'
+2025-04-04 19:29:24,872-ERROR-\u2705 Database connected successfully!
+2025-04-04 19:31:26,454-ERROR-\u2705 Database connected successfully!
+2025-04-04 19:31:58,442-ERROR-\u2705 Database connected successfully!
+2025-04-04 19:32:31,207-ERROR-\u2705 Database connected successfully!
+2025-04-04 19:33:03,388-ERROR-\u2705 Database connected successfully!
+2025-04-04 19:33:35,487-ERROR-\u2705 Database connected successfully!
+2025-04-04 19:34:02,282-ERROR-\u2705 Database connected successfully!
+2025-04-04 19:44:02,470-ERROR-\u2705 Database connected successfully!
+2025-04-04 19:49:02,504-ERROR-\u2705 Database connected successfully!
+2025-04-04 19:54:04,091-ERROR-\u2705 Database connected successfully!
+2025-04-04 20:09:02,524-ERROR-\u2705 Database connected successfully!
+2025-04-04 20:09:49,536-ERROR-Database error: update_user() missing 1 required positional argument: 'db'
+2025-04-04 20:10:48,043-ERROR-Database error: update_user() missing 1 required positional argument: 'db'
+2025-04-04 20:10:52,631-ERROR-\u2705 Database connected successfully!
+2025-04-04 20:10:53,284-ERROR-Database error: update_user() missing 1 required positional argument: 'db'
+2025-04-04 20:10:55,892-ERROR-Database error: update_user() missing 1 required positional argument: 'db'
+2025-04-04 20:11:27,285-ERROR-\u2705 Database connected successfully!
+2025-04-04 20:12:02,209-ERROR-\u2705 Database connected successfully!
+2025-04-04 20:16:00,223-ERROR-\u2705 Database connected successfully!
+2025-04-04 20:16:05,357-ERROR-\u2705 Database connected successfully!
+2025-04-04 20:16:25,413-ERROR-\u2705 Database connected successfully!
+2025-04-04 20:16:52,251-ERROR-\u2705 Database connected successfully!
+2025-04-04 20:17:02,901-ERROR-\u2705 Database connected successfully!
+2025-04-04 20:17:25,084-ERROR-\u2705 Database connected successfully!
+2025-04-04 20:18:11,964-ERROR-\u2705 Database connected successfully!
+2025-04-04 20:18:22,945-ERROR-\u2705 Database connected successfully!
+2025-04-04 20:18:57,668-ERROR-\u2705 Database connected successfully!
+2025-04-04 20:19:27,289-ERROR-Database error: exceptions must derive from BaseException
+2025-04-04 20:19:32,542-ERROR-\u2705 Database connected successfully!
+2025-04-04 20:19:33,153-ERROR-Database error: exceptions must derive from BaseException
+2025-04-04 20:20:07,000-ERROR-\u2705 Database connected successfully!
+2025-04-04 20:20:42,099-ERROR-\u2705 Database connected successfully!
+2025-04-04 20:21:17,047-ERROR-\u2705 Database connected successfully!
+2025-04-04 20:21:39,964-ERROR-Database error: (pymysql.err.IntegrityError) (1062, "Duplicate entry 'user6@example.com' for key 'users.ix_users_email'")
+[SQL: UPDATE users SET username=%(username)s, email=%(email)s, `role`=%(role)s WHERE users.id = %(id_1)s]
+[parameters: {'username': 'string6', 'email': 'user6@example.com', 'role': 'admin', 'id_1': 6}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-04-04 20:26:35,269-ERROR-\u2705 Database connected successfully!
+2025-04-04 20:27:20,204-ERROR-\u2705 Database connected successfully!
+2025-04-04 20:29:02,071-ERROR-\u2705 Database connected successfully!
+2025-04-04 20:30:27,013-ERROR-\u2705 Database connected successfully!
+2025-04-04 20:32:36,479-ERROR-\u2705 Database connected successfully!
+2025-04-04 20:32:43,614-ERROR-Database error: 5 validation errors:
+  {'type': 'missing', 'loc': ('response', 'id'), 'msg': 'Field required', 'input': {'message': 'You Are not Autherise to update user'}}
+  {'type': 'missing', 'loc': ('response', 'email'), 'msg': 'Field required', 'input': {'message': 'You Are not Autherise to update user'}}
+  {'type': 'missing', 'loc': ('response', 'username'), 'msg': 'Field required', 'input': {'message': 'You Are not Autherise to update user'}}
+  {'type': 'missing', 'loc': ('response', 'is_active'), 'msg': 'Field required', 'input': {'message': 'You Are not Autherise to update user'}}
+  {'type': 'missing', 'loc': ('response', 'role'), 'msg': 'Field required', 'input': {'message': 'You Are not Autherise to update user'}}
+
+2025-04-04 20:32:46,729-ERROR-Database error: 5 validation errors:
+  {'type': 'missing', 'loc': ('response', 'id'), 'msg': 'Field required', 'input': {'message': 'You Are not Autherise to update user'}}
+  {'type': 'missing', 'loc': ('response', 'email'), 'msg': 'Field required', 'input': {'message': 'You Are not Autherise to update user'}}
+  {'type': 'missing', 'loc': ('response', 'username'), 'msg': 'Field required', 'input': {'message': 'You Are not Autherise to update user'}}
+  {'type': 'missing', 'loc': ('response', 'is_active'), 'msg': 'Field required', 'input': {'message': 'You Are not Autherise to update user'}}
+  {'type': 'missing', 'loc': ('response', 'role'), 'msg': 'Field required', 'input': {'message': 'You Are not Autherise to update user'}}
+
+2025-04-04 20:36:46,560-ERROR-Database error: 5 validation errors:
+  {'type': 'missing', 'loc': ('response', 'id'), 'msg': 'Field required', 'input': {'message': 'You Are not Autherise to update user'}}
+  {'type': 'missing', 'loc': ('response', 'email'), 'msg': 'Field required', 'input': {'message': 'You Are not Autherise to update user'}}
+  {'type': 'missing', 'loc': ('response', 'username'), 'msg': 'Field required', 'input': {'message': 'You Are not Autherise to update user'}}
+  {'type': 'missing', 'loc': ('response', 'is_active'), 'msg': 'Field required', 'input': {'message': 'You Are not Autherise to update user'}}
+  {'type': 'missing', 'loc': ('response', 'role'), 'msg': 'Field required', 'input': {'message': 'You Are not Autherise to update user'}}
+
+2025-04-04 20:36:51,683-ERROR-\u2705 Database connected successfully!
+2025-04-04 20:37:19,005-ERROR-\u2705 Database connected successfully!
+2025-04-04 20:38:41,999-ERROR-\u2705 Database connected successfully!
+2025-04-04 20:43:43,016-ERROR-\u2705 Database connected successfully!
+2025-04-04 20:44:55,003-ERROR-\u2705 Database connected successfully!
+2025-04-04 20:45:28,556-ERROR-\u2705 Database connected successfully!
+2025-04-04 20:46:03,780-ERROR-\u2705 Database connected successfully!
+2025-04-04 20:46:39,312-ERROR-\u2705 Database connected successfully!
+2025-04-04 20:46:52,767-ERROR-\u2705 Database connected successfully!
+2025-04-04 20:47:25,932-ERROR-\u2705 Database connected successfully!
+2025-04-04 20:48:00,052-ERROR-\u2705 Database connected successfully!
+2025-04-04 20:48:33,233-ERROR-\u2705 Database connected successfully!
+2025-04-04 20:49:07,101-ERROR-\u2705 Database connected successfully!
+2025-04-04 20:49:33,512-ERROR-\u2705 Database connected successfully!
+2025-04-04 20:50:01,397-ERROR-Database error: cannot access local variable 'User' where it is not associated with a value
+2025-04-04 20:50:47,584-ERROR-Database error: cannot access local variable 'User' where it is not associated with a value
+2025-04-04 20:50:53,237-ERROR-\u2705 Database connected successfully!
+2025-04-04 20:50:53,821-ERROR-Database error: 404: Employee with ID 5 not found in the database
+2025-04-04 20:51:19,561-ERROR-Database error: 404: Employee with ID 5 not found in the database
+2025-04-04 20:51:24,076-ERROR-Database error: 404: Employee with ID 5 not found in the database
+2025-04-04 20:51:52,365-ERROR-Database error: 404: Employee with ID 5 not found in the database
+2025-04-04 20:52:54,799-ERROR-Database error: 404: Employee with ID 5 not found in the database
+2025-04-04 20:52:59,744-ERROR-\u2705 Database connected successfully!
+2025-04-04 20:53:00,331-ERROR-Database error: 404: Employee with ID 5 not found in the database
+2025-04-04 20:53:04,194-ERROR-Database error: 404: Employee with ID 5 not found in the database
+2025-04-04 20:53:05,297-ERROR-Database error: 404: Employee with ID 5 not found in the database
+2025-04-04 20:55:06,890-ERROR-Database error: 404: Employee with ID 5 not found in the database
+2025-04-04 20:55:08,862-ERROR-Database error: 404: Employee with ID 5 not found in the database
+2025-04-04 20:56:01,456-ERROR-Database error: 404: Employee with ID 5 not found in the database
+2025-04-04 20:56:06,586-ERROR-Database error: 404: Employee with ID 5 not found in the database
+2025-04-04 20:56:07,753-ERROR-Database error: 404: Employee with ID 5 not found in the database
+2025-04-04 20:56:23,470-ERROR-Database error: 404: Employee with ID 8 not found in the database
+2025-04-04 20:56:27,848-ERROR-Database error: 404: Employee with ID 8 not found in the database
+2025-04-04 20:56:28,669-ERROR-Database error: 404: Employee with ID 8 not found in the database
+2025-04-04 20:57:24,990-ERROR-Database error: 404: Employee with ID 8 not found in the database
+2025-04-04 20:57:28,781-ERROR-\u2705 Database connected successfully!
+2025-04-04 20:57:29,150-ERROR-Database error: 404: Employee with ID 8 not found in the database
+2025-04-04 20:58:02,512-ERROR-\u2705 Database connected successfully!
