@@ -22,7 +22,7 @@ def get_user(username: str = Depends(user_services.current_user),db: Session = D
     return user_services.get_all_users(db)
 
 @router.get("/{id}",response_model=ShowUser)
-def filter_user(id:int,db:Session=Depends(get_db)):
+def filter_user(id:int,db:Session=Depends(get_db),username: str = Depends(user_services.current_user)):
     user=user_services.filter_user(id,db)
     if user:
         return user
