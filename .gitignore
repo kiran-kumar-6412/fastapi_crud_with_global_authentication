@@ -6,4 +6,3 @@ __pycache__/
 # Virtual environment
 myenv/
 venv/
-.env
