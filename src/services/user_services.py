@@ -2,7 +2,7 @@ from src.repository.user_repository import UserRepository
 from src.utils.security import hash_password,logger,verify_password
 from src.utils.token import create_token,verify_token
 from fastapi import HTTPException,status,Depends
-from src.config.config import oauth2_scheme
+from src.schemas.user import TokenData
 
 
 
@@ -25,7 +25,7 @@ def filter_user(id:int,db):
 
 def login(user,db):
     try:
-        #print(user,user.username,user.password)
+        # print(user,user.username,user.password)
         username=user.username
         password=user.password
         user_record=UserRepository.login(username,db)
@@ -42,16 +42,18 @@ def login(user,db):
         logger.logging_error(f"loggin error {str(e)}")
 
 
-
-def current_user(token:str=Depends(oauth2_scheme)):
+def current_user(token_data: TokenData = Depends(verify_token)):
     try:
-        return verify_token(token)
+        return token_data.username
     except Exception as e:
         logger.logging_error(f"Current User Error {str(e)}")
         raise HTTPException(
             status_code=status.HTTP_401_UNAUTHORIZED,
             detail="Invalid authentication credentials"
         )
+    
+
+
 def update_user(id,schema_user,session_username,db):
     login_user_role=UserRepository.current_user_role(session_username,db)
     if login_user_role=="admin":               # only admin can update the user details

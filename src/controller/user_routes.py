@@ -14,11 +14,11 @@ def register(user: UserCreate, db: Session = Depends(get_db)):
 
 
 @router.post("/login")
-def login(user:OAuth2PasswordRequestForm=Depends(),db:Session=Depends(get_db)):
-    return user_services.login(user,db)
+def login(form_data:OAuth2PasswordRequestForm=Depends(),db:Session=Depends(get_db)): # getting form_data from swagger ui
+    return user_services.login(form_data,db)
 
 @router.get("/all",response_model=list[ShowUser])
-def get_user(username: str = Depends(user_services.current_user),db: Session = Depends(get_db)):  
+def get_user(current_user : str = Depends(user_services.current_user),db: Session = Depends(get_db)):  
     return user_services.get_all_users(db)
 
 @router.get("/{id}",response_model=ShowUser)
@@ -28,7 +28,7 @@ def filter_user(id:int,db:Session=Depends(get_db),username: str = Depends(user_s
         return user
     raise HTTPException(status.HTTP_404_NOT_FOUND,f"user with id-{id} not found")
 
-@router.put("/{id}")
+@router.put("/update/{id}")
 def update_user(id:int,schema_user:User_update,session_username:str=Depends(user_services.current_user),db:Session=Depends(get_db)):
     return user_services.update_user(id,schema_user,session_username,db)
 

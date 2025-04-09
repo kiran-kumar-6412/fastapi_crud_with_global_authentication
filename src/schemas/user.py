@@ -24,8 +24,8 @@ class ShowUser(BaseModel):
         from_attributes = True
 
 class Login(BaseModel):
-    username:str
-    password:str
+    username: str
+    password: str
 
 
 class Token(BaseModel):
@@ -33,7 +33,9 @@ class Token(BaseModel):
     token_type:str
 
 class TokenData(BaseModel):
-    username:Optional[str]=None
+    username: str
+    role: str
+
 
 class User_update(BaseModel):
     email:Optional[EmailStr]

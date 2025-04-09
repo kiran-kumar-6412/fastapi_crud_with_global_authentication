@@ -3,8 +3,10 @@ from datetime import timedelta,datetime
 from src.config.config import settings
 from src.utils import logger
 from jwt.exceptions import ExpiredSignatureError,InvalidTokenError
-from fastapi import HTTPException,status
+from fastapi import HTTPException,status,Depends
 from src.schemas.user import TokenData
+from src.config.config import oauth2_scheme
+
 
 
 SECRETE_KEY=settings.SECRET_KEY
@@ -22,17 +24,16 @@ def create_token(data:dict):
         logger.logging_error(f"Token Create Error {str(e)}")
 
 
-def verify_token(token):
+def verify_token(token:str=Depends(oauth2_scheme)):
+    #print(token)
     try:
         payload = jwt.decode(token, SECRETE_KEY, algorithms=[ALGORITHM])
         username: str = payload.get("sub")
+        role: str = payload.get("role")
 
         if username is None:
-            raise HTTPException(
-                status_code=status.HTTP_401_UNAUTHORIZED, detail="Invalid token"
-            )
-
-        return username  # Successfully authenticated
+            raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, detail="Invalid token")
+        return TokenData(username=username, role=role) # Successfully authenticated
 
     except ExpiredSignatureError:
         logger.logging_error("Token Expired")
