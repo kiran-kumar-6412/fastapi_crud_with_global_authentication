@@ -71,3 +71,235 @@
 2025-04-09 20:04:48,930-ERROR-\u2705 Database connected successfully!
 2025-04-09 20:05:42,078-ERROR-\u2705 Database connected successfully!
 2025-04-09 20:05:50,957-ERROR-\u2705 Database connected successfully!
+2025-04-10 14:35:25,548-ERROR-\u2705 Database connected successfully!
+2025-04-10 14:37:59,495-ERROR-\u2705 Database connected successfully!
+2025-04-10 14:39:03,071-ERROR-Error creating user: (pymysql.err.IntegrityError) (1062, "Duplicate entry 'user@example.com' for key 'users.ix_users_email'")
+[SQL: INSERT INTO users (username, email, password, is_active, `role`) VALUES (%(username)s, %(email)s, %(password)s, %(is_active)s, %(role)s)]
+[parameters: {'username': 'string', 'email': 'user@example.com', 'password': '$2b$12$VfLe4hAUcAG9mb7y9LCCgObIenNClAC9k3ThNGDUv.jNle09d3wAa', 'is_active': 1, 'role': 'vendor'}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-04-10 14:39:14,205-ERROR-Error creating user: (pymysql.err.IntegrityError) (1062, "Duplicate entry 'user@example.com' for key 'users.ix_users_email'")
+[SQL: INSERT INTO users (username, email, password, is_active, `role`) VALUES (%(username)s, %(email)s, %(password)s, %(is_active)s, %(role)s)]
+[parameters: {'username': 'string', 'email': 'user@example.com', 'password': '$2b$12$ukLgIpSMCMF/vxPV.cwQEuKVkIxT9hs.xX8DI12TOcJ50XFQ29cxq', 'is_active': 1, 'role': 'vendor'}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-04-10 14:52:36,861-ERROR-\u2705 Database connected successfully!
+2025-04-10 14:53:58,097-ERROR-Error creating user: (pymysql.err.IntegrityError) (1062, "Duplicate entry 'user@example.com' for key 'users.ix_users_email'")
+[SQL: INSERT INTO users (username, email, password, is_active, `role`) VALUES (%(username)s, %(email)s, %(password)s, %(is_active)s, %(role)s)]
+[parameters: {'username': 'string', 'email': 'user@example.com', 'password': '$2b$12$W9ogjFiBS3E1VdyMfHWEjeb9hOq6BmjyORvAgvr8S62Q/GWYYCeWa', 'is_active': 1, 'role': 'vendor'}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-04-10 14:55:23,621-ERROR-\u2705 Database connected successfully!
+2025-04-10 14:55:56,832-ERROR-\u2705 Database connected successfully!
+2025-04-10 14:56:30,481-ERROR-\u2705 Database connected successfully!
+2025-04-10 14:58:10,084-ERROR-\u2705 Database connected successfully!
+2025-04-10 15:04:07,274-ERROR-loggin error 404: Invalid Credentials
+2025-04-10 15:04:13,605-ERROR-Invalid Token
+2025-04-10 15:04:20,118-ERROR-Invalid Token
+2025-04-10 15:04:43,436-ERROR-Update USer (pymysql.err.IntegrityError) (1062, "Duplicate entry 'user@example.com' for key 'users.ix_users_email'")
+[SQL: UPDATE users SET email=%(email)s, `role`=%(role)s WHERE users.id = %(id_1)s]
+[parameters: {'email': 'user@example.com', 'role': 'admin', 'id_1': 10}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-04-10 15:04:47,116-ERROR-Update USer (pymysql.err.IntegrityError) (1062, "Duplicate entry 'user@example.com' for key 'users.ix_users_email'")
+[SQL: UPDATE users SET email=%(email)s, `role`=%(role)s WHERE users.id = %(id_1)s]
+[parameters: {'email': 'user@example.com', 'role': 'admin', 'id_1': 10}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-04-10 15:04:49,486-ERROR-Update USer (pymysql.err.IntegrityError) (1062, "Duplicate entry 'user@example.com' for key 'users.ix_users_email'")
+[SQL: UPDATE users SET email=%(email)s, `role`=%(role)s WHERE users.id = %(id_1)s]
+[parameters: {'email': 'user@example.com', 'role': 'admin', 'id_1': 10}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-04-10 15:05:32,806-ERROR-loggin error 404: Invalid Credentials
+2025-04-10 15:06:00,499-ERROR-Invalid Token
+2025-04-10 15:06:03,659-ERROR-Invalid Token
+2025-04-10 15:07:07,652-ERROR-loggin error 404: Invalid Credentials
+2025-04-10 15:07:16,323-ERROR-Invalid Token
+2025-04-10 15:07:20,475-ERROR-Invalid Token
+2025-04-10 15:07:21,296-ERROR-Invalid Token
+2025-04-10 15:07:50,341-ERROR-Invalid Token
+2025-04-10 15:07:53,258-ERROR-Invalid Token
+2025-04-10 15:08:30,624-ERROR-loggin error 404: Invalid Credentials
+2025-04-10 15:08:53,336-ERROR-Invalid Token
+2025-04-10 15:08:56,039-ERROR-Invalid Token
+2025-04-10 15:09:56,955-ERROR-\u2705 Database connected successfully!
+2025-04-10 15:10:29,472-ERROR-loggin error 404: Invalid Credentials
+2025-04-10 15:10:46,118-ERROR-Invalid Token
+2025-04-10 15:12:06,134-ERROR-loggin error 404: Invalid Credentials
+2025-04-10 15:12:31,846-ERROR-loggin error 404: Invalid Credentials
+2025-04-10 15:18:22,998-ERROR-loggin error 404: Invalid Credentials
+2025-04-10 15:18:43,460-ERROR-Invalid Token
+2025-04-10 15:18:58,158-ERROR-Invalid Token
+2025-04-10 15:19:11,949-ERROR-Invalid Token
+2025-04-10 15:19:36,204-ERROR-loggin error 404: Invalid Credentials
+2025-04-10 15:19:42,720-ERROR-Invalid Token
+2025-04-10 15:31:00,285-ERROR-\u2705 Database connected successfully!
+2025-04-10 15:31:29,027-ERROR-loggin error 404: Invalid Credentials
+2025-04-10 15:31:30,757-ERROR-\u2705 Database connected successfully!
+2025-04-10 15:31:38,327-ERROR-Invalid Token
+2025-04-10 15:32:03,250-ERROR-\u2705 Database connected successfully!
+2025-04-10 15:32:35,138-ERROR-\u2705 Database connected successfully!
+2025-04-10 15:33:57,923-ERROR-\u2705 Database connected successfully!
+2025-04-10 15:34:08,941-ERROR-loggin error 404: Invalid Credentials
+2025-04-10 15:36:26,190-ERROR-\u2705 Database connected successfully!
+2025-04-10 15:36:58,045-ERROR-\u2705 Database connected successfully!
+2025-04-10 15:37:30,611-ERROR-\u2705 Database connected successfully!
+2025-04-10 15:38:02,327-ERROR-\u2705 Database connected successfully!
+2025-04-10 15:38:34,282-ERROR-\u2705 Database connected successfully!
+2025-04-10 15:41:11,181-ERROR-Database error: module 'src.services.user_services' has no attribute 'create_or_update_user'
+2025-04-10 15:41:13,193-ERROR-\u2705 Database connected successfully!
+2025-04-10 15:41:36,523-ERROR-Update USer 404: User with ID 2 not found
+2025-04-10 15:42:04,093-ERROR-Update USer (pymysql.err.IntegrityError) (1062, "Duplicate entry 'user@example.com' for key 'users.ix_users_email'")
+[SQL: UPDATE users SET email=%(email)s, `role`=%(role)s WHERE users.id = %(id_1)s]
+[parameters: {'email': 'user@example.com', 'role': 'vendor', 'id_1': 6}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-04-10 15:42:07,876-ERROR-Update USer (pymysql.err.IntegrityError) (1062, "Duplicate entry 'user@example.com' for key 'users.ix_users_email'")
+[SQL: UPDATE users SET email=%(email)s, `role`=%(role)s WHERE users.id = %(id_1)s]
+[parameters: {'email': 'user@example.com', 'role': 'vendor', 'id_1': 6}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-04-10 15:46:13,318-ERROR-\u2705 Database connected successfully!
+2025-04-10 15:47:01,937-ERROR-Update USer (pymysql.err.IntegrityError) (1062, "Duplicate entry 'user@example.com' for key 'users.ix_users_email'")
+[SQL: UPDATE users SET email=%(email)s, `role`=%(role)s WHERE users.id = %(id_1)s]
+[parameters: {'email': 'user@example.com', 'role': 'vendor', 'id_1': 6}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-04-10 15:47:01,937-ERROR-Database error: 304: data
+2025-04-10 15:47:03,596-ERROR-\u2705 Database connected successfully!
+2025-04-10 15:47:09,121-ERROR-Update USer (pymysql.err.IntegrityError) (1062, "Duplicate entry 'user@example.com' for key 'users.ix_users_email'")
+[SQL: UPDATE users SET email=%(email)s, `role`=%(role)s WHERE users.id = %(id_1)s]
+[parameters: {'email': 'user@example.com', 'role': 'vendor', 'id_1': 6}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-04-10 15:47:09,121-ERROR-Database error: 304: (pymysql.err.IntegrityError) (1062, "Duplicate entry 'user@example.com' for key 'users.ix_users_email'")
+[SQL: UPDATE users SET email=%(email)s, `role`=%(role)s WHERE users.id = %(id_1)s]
+[parameters: {'email': 'user@example.com', 'role': 'vendor', 'id_1': 6}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-04-10 15:47:42,767-ERROR-Update USer (pymysql.err.IntegrityError) (1062, "Duplicate entry 'user@example.com' for key 'users.ix_users_email'")
+[SQL: UPDATE users SET email=%(email)s, `role`=%(role)s WHERE users.id = %(id_1)s]
+[parameters: {'email': 'user@example.com', 'role': 'vendor', 'id_1': 6}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-04-10 15:47:42,767-ERROR-Database error: 304: (pymysql.err.IntegrityError) (1062, "Duplicate entry 'user@example.com' for key 'users.ix_users_email'")
+[SQL: UPDATE users SET email=%(email)s, `role`=%(role)s WHERE users.id = %(id_1)s]
+[parameters: {'email': 'user@example.com', 'role': 'vendor', 'id_1': 6}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-04-10 15:47:44,485-ERROR-\u2705 Database connected successfully!
+2025-04-10 15:47:48,422-ERROR-Update USer (pymysql.err.IntegrityError) (1062, "Duplicate entry 'user@example.com' for key 'users.ix_users_email'")
+[SQL: UPDATE users SET email=%(email)s, `role`=%(role)s WHERE users.id = %(id_1)s]
+[parameters: {'email': 'user@example.com', 'role': 'vendor', 'id_1': 6}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-04-10 15:47:48,422-ERROR-Database error: 304: (pymysql.err.IntegrityError) (1062, "Duplicate entry 'user@example.com' for key 'users.ix_users_email'")
+[SQL: UPDATE users SET email=%(email)s, `role`=%(role)s WHERE users.id = %(id_1)s]
+[parameters: {'email': 'user@example.com', 'role': 'vendor', 'id_1': 6}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-04-10 15:47:58,535-ERROR-Update USer (pymysql.err.IntegrityError) (1062, "Duplicate entry 'user@example.com' for key 'users.ix_users_email'")
+[SQL: UPDATE users SET email=%(email)s, `role`=%(role)s WHERE users.id = %(id_1)s]
+[parameters: {'email': 'user@example.com', 'role': 'vendor', 'id_1': 6}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-04-10 15:47:58,535-ERROR-Database error: 304: (pymysql.err.IntegrityError) (1062, "Duplicate entry 'user@example.com' for key 'users.ix_users_email'")
+[SQL: UPDATE users SET email=%(email)s, `role`=%(role)s WHERE users.id = %(id_1)s]
+[parameters: {'email': 'user@example.com', 'role': 'vendor', 'id_1': 6}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-04-10 16:00:11,968-ERROR-Update USer (pymysql.err.IntegrityError) (1062, "Duplicate entry 'user@example.com' for key 'users.ix_users_email'")
+[SQL: UPDATE users SET email=%(email)s, `role`=%(role)s WHERE users.id = %(id_1)s]
+[parameters: {'email': 'user@example.com', 'role': 'vendor', 'id_1': 6}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-04-10 16:00:11,971-ERROR-Database error: 304: (pymysql.err.IntegrityError) (1062, "Duplicate entry 'user@example.com' for key 'users.ix_users_email'")
+[SQL: UPDATE users SET email=%(email)s, `role`=%(role)s WHERE users.id = %(id_1)s]
+[parameters: {'email': 'user@example.com', 'role': 'vendor', 'id_1': 6}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-04-10 16:08:27,622-ERROR-Update USer (pymysql.err.IntegrityError) (1062, "Duplicate entry 'user@example.com' for key 'users.ix_users_email'")
+[SQL: UPDATE users SET email=%(email)s, `role`=%(role)s WHERE users.id = %(id_1)s]
+[parameters: {'email': 'user@example.com', 'role': 'vendor', 'id_1': 6}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-04-10 16:08:27,624-ERROR-Database error: 304: (pymysql.err.IntegrityError) (1062, "Duplicate entry 'user@example.com' for key 'users.ix_users_email'")
+[SQL: UPDATE users SET email=%(email)s, `role`=%(role)s WHERE users.id = %(id_1)s]
+[parameters: {'email': 'user@example.com', 'role': 'vendor', 'id_1': 6}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-04-10 16:08:30,748-ERROR-\u2705 Database connected successfully!
+2025-04-10 16:08:30,924-ERROR-Database error: 400: Email already exists. Please use a different one.
+2025-04-10 16:08:46,418-ERROR-Database error: 400: Email already exists. Please use a different one.
+2025-04-10 16:09:08,035-ERROR-Update USer 404: User with ID 2 not found
+2025-04-10 16:09:08,038-ERROR-Database error: 304: 404: User with ID 2 not found
+2025-04-10 16:09:55,093-ERROR-Update USer 404: User with ID 2 not found
+2025-04-10 16:09:55,093-ERROR-Database error: 304: 404: User with ID 2 not found
+2025-04-10 16:10:01,789-ERROR-Update USer 404: User with ID 2 not found
+2025-04-10 16:10:01,789-ERROR-Database error: 304: 404: User with ID 2 not found
+2025-04-10 16:10:07,622-ERROR-Update USer 404: User with ID 20 not found
+2025-04-10 16:10:07,622-ERROR-Database error: 304: 404: User with ID 20 not found
+2025-04-10 16:10:22,444-ERROR-Update USer 404: User with ID 20 not found
+2025-04-10 16:10:22,446-ERROR-Database error: 304: 404: User with ID 20 not found
+2025-04-10 16:10:24,253-ERROR-\u2705 Database connected successfully!
+2025-04-10 16:10:25,827-ERROR-Update USer 404: User with ID 20 not found
+2025-04-10 16:10:25,827-ERROR-Database error: 304: 404: User with ID 20 not found
+2025-04-10 16:10:47,976-ERROR-Update USer 404: User with ID 20 not found
+2025-04-10 16:10:47,976-ERROR-Database error: 304: 404: User with ID 20 not found
+2025-04-10 16:10:50,001-ERROR-\u2705 Database connected successfully!
+2025-04-10 16:10:50,682-ERROR-Update USer 404: User with ID 20 not found
+2025-04-10 16:11:22,151-ERROR-\u2705 Database connected successfully!
+2025-04-10 16:11:22,330-ERROR-Update USer 404: User with ID 20 not found
+2025-04-10 16:11:23,438-ERROR-Update USer 404: User with ID 20 not found
+2025-04-10 16:11:55,355-ERROR-\u2705 Database connected successfully!
+2025-04-10 16:12:12,856-ERROR-Update USer 404: User with ID 20 not found
+2025-04-10 16:12:15,106-ERROR-\u2705 Database connected successfully!
+2025-04-10 16:12:15,571-ERROR-Update USer 404: User with ID 20 not found
+2025-04-10 16:21:00,953-ERROR-Update USer 404: User with ID 20 not found
+2025-04-10 16:21:05,041-ERROR-\u2705 Database connected successfully!
+2025-04-10 16:21:05,288-ERROR-Update User: 404: User with ID 20 not found
+2025-04-10 16:21:05,292-ERROR-Database error: 500: 404: User with ID 20 not found
+2025-04-10 16:21:13,298-ERROR-Update User: 404: User with ID 2 not found
+2025-04-10 16:21:13,301-ERROR-Database error: 500: 404: User with ID 2 not found
+2025-04-10 16:24:21,194-ERROR-Update User: 404: User with ID 199 not found
+2025-04-10 16:24:21,197-ERROR-Database error: 500: 404: User with ID 199 not found
+2025-04-10 16:25:38,557-ERROR-Error creating user: (pymysql.err.IntegrityError) (1062, "Duplicate entry 'user00@example.com' for key 'users.ix_users_email'")
+[SQL: INSERT INTO users (username, email, password, is_active, `role`) VALUES (%(username)s, %(email)s, %(password)s, %(is_active)s, %(role)s)]
+[parameters: {'username': 'string20', 'email': 'user00@example.com', 'password': '$2b$12$GMmGOQswHAhPk1tHi6T8HuEOtyGIrWnoEHed5qpSmQqN3/kiPNXlK', 'is_active': 1, 'role': 'vendor'}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-04-10 16:25:42,148-ERROR-\u2705 Database connected successfully!
+2025-04-10 16:25:44,640-ERROR-Error creating user: (pymysql.err.IntegrityError) (1062, "Duplicate entry 'user00@example.com' for key 'users.ix_users_email'")
+[SQL: INSERT INTO users (username, email, password, is_active, `role`) VALUES (%(username)s, %(email)s, %(password)s, %(is_active)s, %(role)s)]
+[parameters: {'username': 'string20', 'email': 'user00@example.com', 'password': '$2b$12$YmheJdrTVcbtezNAdWT4Ne/Xem6THQTRpQdylbvQrEN.NudKnQdLC', 'is_active': 1, 'role': 'vendor'}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-04-10 16:25:44,648-ERROR-Database error: 1 validation errors:
+  {'type': 'model_attributes_type', 'loc': ('response',), 'msg': 'Input should be a valid dictionary or object to extract fields from', 'input': None}
+
+2025-04-10 16:26:08,380-ERROR-Error creating user: (pymysql.err.IntegrityError) (1062, "Duplicate entry 'user00@example.com' for key 'users.ix_users_email'")
+[SQL: INSERT INTO users (username, email, password, is_active, `role`) VALUES (%(username)s, %(email)s, %(password)s, %(is_active)s, %(role)s)]
+[parameters: {'username': 'string20', 'email': 'user00@example.com', 'password': '$2b$12$wJGV7KPhDhkLzyXGNKzgj.I7ThYMzwbIguTLVNrvnJV.suahwy0O6', 'is_active': 1, 'role': 'vendor'}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-04-10 16:26:08,385-ERROR-Database error: 1 validation errors:
+  {'type': 'model_attributes_type', 'loc': ('response',), 'msg': 'Input should be a valid dictionary or object to extract fields from', 'input': None}
+
+2025-04-10 16:26:11,504-ERROR-\u2705 Database connected successfully!
+2025-04-10 16:26:12,602-ERROR-Error creating user: (pymysql.err.IntegrityError) (1062, "Duplicate entry 'user00@example.com' for key 'users.ix_users_email'")
+[SQL: INSERT INTO users (username, email, password, is_active, `role`) VALUES (%(username)s, %(email)s, %(password)s, %(is_active)s, %(role)s)]
+[parameters: {'username': 'string20', 'email': 'user00@example.com', 'password': '$2b$12$a5LN6rjy33OSLFrnT9v6zONIC0WkVE0MpeU1PHCeZtclKNM6W/fla', 'is_active': 1, 'role': 'vendor'}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-04-10 16:26:12,605-ERROR-Database error: 1 validation errors:
+  {'type': 'list_type', 'loc': ('response',), 'msg': 'Input should be a valid list', 'input': None}
+
+2025-04-10 16:27:09,856-ERROR-Error creating user: (pymysql.err.IntegrityError) (1062, "Duplicate entry 'user00@example.com' for key 'users.ix_users_email'")
+[SQL: INSERT INTO users (username, email, password, is_active, `role`) VALUES (%(username)s, %(email)s, %(password)s, %(is_active)s, %(role)s)]
+[parameters: {'username': 'string20', 'email': 'user00@example.com', 'password': '$2b$12$5u2L3noncS7Tyqf1JdfoCeGeYM0mgyjodlch9GyeQGg2vmEQqbjma', 'is_active': 1, 'role': 'vendor'}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-04-10 16:27:09,860-ERROR-Database error: 1 validation errors:
+  {'type': 'list_type', 'loc': ('response',), 'msg': 'Input should be a valid list', 'input': None}
+
+2025-04-10 16:27:13,325-ERROR-\u2705 Database connected successfully!
+2025-04-10 16:27:14,289-ERROR-Error creating user: (pymysql.err.IntegrityError) (1062, "Duplicate entry 'user00@example.com' for key 'users.ix_users_email'")
+[SQL: INSERT INTO users (username, email, password, is_active, `role`) VALUES (%(username)s, %(email)s, %(password)s, %(is_active)s, %(role)s)]
+[parameters: {'username': 'string20', 'email': 'user00@example.com', 'password': '$2b$12$ziVALEouxmlgKLz0t4qYFOv2BPYC/m86KczUSOUgG8QGdwkhDGJ/.', 'is_active': 1, 'role': 'vendor'}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-04-10 16:27:14,289-ERROR-Database error: 1 validation errors:
+  {'type': 'model_attributes_type', 'loc': ('response',), 'msg': 'Input should be a valid dictionary or object to extract fields from', 'input': None}
+
+2025-04-10 16:31:14,810-ERROR-Error creating user: (pymysql.err.IntegrityError) (1062, "Duplicate entry 'user00@example.com' for key 'users.ix_users_email'")
+[SQL: INSERT INTO users (username, email, password, is_active, `role`) VALUES (%(username)s, %(email)s, %(password)s, %(is_active)s, %(role)s)]
+[parameters: {'username': 'string20', 'email': 'user00@example.com', 'password': '$2b$12$Joh7tK/LXNzQ4c8P2VH45uWmaOBXJCzWuGh2BReUnw.mMOGRG1B1K', 'is_active': 1, 'role': 'vendor'}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-04-10 16:31:14,810-ERROR-Database error: 1 validation errors:
+  {'type': 'model_attributes_type', 'loc': ('response',), 'msg': 'Input should be a valid dictionary or object to extract fields from', 'input': None}
+
+2025-04-10 16:31:18,545-ERROR-\u2705 Database connected successfully!
+2025-04-10 16:31:19,559-ERROR-Error creating user: (pymysql.err.IntegrityError) (1062, "Duplicate entry 'user00@example.com' for key 'users.ix_users_email'")
+[SQL: INSERT INTO users (username, email, password, is_active, `role`) VALUES (%(username)s, %(email)s, %(password)s, %(is_active)s, %(role)s)]
+[parameters: {'username': 'string20', 'email': 'user00@example.com', 'password': '$2b$12$s2VUoyueKPDbPqpYC0wQpuWysm2WFRMyZr4EUdscVl4E6iRQa6UPq', 'is_active': 1, 'role': 'vendor'}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-04-10 16:31:19,562-ERROR-Database error: 400: User creation failed
+2025-04-10 16:31:39,571-ERROR-Error creating user: (pymysql.err.IntegrityError) (1062, "Duplicate entry 'string20' for key 'users.ix_users_username'")
+[SQL: INSERT INTO users (username, email, password, is_active, `role`) VALUES (%(username)s, %(email)s, %(password)s, %(is_active)s, %(role)s)]
+[parameters: {'username': 'string20', 'email': 'user0@example.com', 'password': '$2b$12$Wpoh56mO70ZtxVo5iFZHKexTbCHZjKmXiGTVr6l7zTsz7EQ/b8WIG', 'is_active': 1, 'role': 'vendor'}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-04-10 16:31:39,573-ERROR-Database error: 400: User creation failed

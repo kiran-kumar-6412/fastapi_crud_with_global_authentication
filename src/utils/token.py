@@ -25,7 +25,7 @@ def create_token(data:dict):
 
 
 def verify_token(token:str=Depends(oauth2_scheme)):
-    #print(token)
+    #print("token getting to  verify token",token)
     try:
         payload = jwt.decode(token, SECRETE_KEY, algorithms=[ALGORITHM])
         username: str = payload.get("sub")

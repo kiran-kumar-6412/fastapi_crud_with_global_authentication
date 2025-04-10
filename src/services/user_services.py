@@ -43,6 +43,7 @@ def login(user,db):
 
 
 def current_user(token_data: TokenData = Depends(verify_token)):
+    #print("token getting to current user",token_data)
     try:
         return token_data.username
     except Exception as e:
@@ -67,5 +68,14 @@ def user_delete(id,session_username,db):
     return {"message":"You Are not Autherise to update user"}
 
 
-
+def create_or_update_user(id,data,session_user,db):
+    if id <= 0 and data.create_data:
+        user=user_create(data.create_data, db)
+        if not user:
+            raise HTTPException(status_code=400, detail="User creation failed")
+        return user
+    elif data.update_data:
+        return update_user(id, data.update_data, session_user, db)
+    else:
+        raise HTTPException(status_code=400, detail="Invalid input for create/update.")
 

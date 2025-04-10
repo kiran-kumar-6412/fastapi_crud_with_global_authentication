@@ -40,3 +40,8 @@ class TokenData(BaseModel):
 class User_update(BaseModel):
     email:Optional[EmailStr]
     role:Optional[str]="vendor"
+
+
+class UserActionSchema(BaseModel):
+    create_data: Optional[UserCreate] = None
+    update_data: Optional[User_update] = None
