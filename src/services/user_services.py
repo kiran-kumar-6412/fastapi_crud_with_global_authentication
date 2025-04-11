@@ -25,10 +25,11 @@ def filter_user(id:int,db):
 
 def login(user,db):
     try:
-        # print(user,user.username,user.password)
+        #print(user,user.username,user.password)
         username=user.username
         password=user.password
         user_record=UserRepository.login(username,db)
+        print(user_record,user_record.username)
 
         if not username or not verify_password(password,user_record.password):
             raise HTTPException(status.HTTP_404_NOT_FOUND,"Invalid Credentials")
@@ -59,13 +60,14 @@ def update_user(id,schema_user,session_username,db):
     login_user_role=UserRepository.current_user_role(session_username,db)
     if login_user_role=="admin":               # only admin can update the user details
        return UserRepository.update_user(id,schema_user,db)
-    return {"message":"You Are not Autherise to update user"}
+    raise HTTPException(status_code=403, detail="You are not authorized to update this user")
 
 def user_delete(id,session_username,db):
     login_user_role=UserRepository.current_user_role(session_username,db)
     if login_user_role=="admin":               # only admin can update the user details
         return UserRepository.user_delete(id,db)
-    return {"message":"You Are not Autherise to update user"}
+    raise HTTPException(status_code=403, detail="You are not authorized to delete this user")
+
 
 
 def create_or_update_user(id,data,session_user,db):

@@ -303,3 +303,385 @@
 [parameters: {'username': 'string20', 'email': 'user0@example.com', 'password': '$2b$12$Wpoh56mO70ZtxVo5iFZHKexTbCHZjKmXiGTVr6l7zTsz7EQ/b8WIG', 'is_active': 1, 'role': 'vendor'}]
 (Background on this error at: https://sqlalche.me/e/20/gkpj)
 2025-04-10 16:31:39,573-ERROR-Database error: 400: User creation failed
+2025-04-11 17:27:24,340-ERROR-\u2705 Database connected successfully!
+2025-04-11 17:28:03,422-ERROR-getting all users 'list' object is not callable
+2025-04-11 17:28:03,428-ERROR-Database error: 1 validation errors:
+  {'type': 'list_type', 'loc': ('response',), 'msg': 'Input should be a valid list', 'input': None}
+
+2025-04-11 17:31:15,474-ERROR-getting all users 'list' object is not callable
+2025-04-11 17:31:15,485-ERROR-Database error: 1 validation errors:
+  {'type': 'list_type', 'loc': ('response',), 'msg': 'Input should be a valid list', 'input': None}
+
+2025-04-11 17:31:20,014-ERROR-\u2705 Database connected successfully!
+2025-04-11 17:31:20,428-ERROR-getting all users __init__() takes 1 positional argument but 2 were given
+2025-04-11 17:31:20,433-ERROR-Database error: 1 validation errors:
+  {'type': 'list_type', 'loc': ('response',), 'msg': 'Input should be a valid list', 'input': None}
+
+2025-04-11 17:32:26,257-ERROR-getting all users __init__() takes 1 positional argument but 2 were given
+2025-04-11 17:32:26,258-ERROR-Database error: 1 validation errors:
+  {'type': 'list_type', 'loc': ('response',), 'msg': 'Input should be a valid list', 'input': None}
+
+2025-04-11 17:32:29,767-ERROR-\u2705 Database connected successfully!
+2025-04-11 17:33:03,618-ERROR-\u2705 Database connected successfully!
+2025-04-11 17:33:08,224-ERROR-Database error: 1 validation errors:
+  {'type': 'list_type', 'loc': ('response',), 'msg': 'Input should be a valid list', 'input': None}
+
+2025-04-11 17:33:11,903-ERROR-\u2705 Database connected successfully!
+2025-04-11 17:33:30,660-ERROR-\u2705 Database connected successfully!
+2025-04-11 17:33:30,955-ERROR-Error getting all users: __init__() takes 1 positional argument but 2 were given
+2025-04-11 17:33:30,957-ERROR-Database error: 500: Failed to fetch users
+2025-04-11 17:33:34,868-ERROR-Error getting all users: __init__() takes 1 positional argument but 2 were given
+2025-04-11 17:33:34,870-ERROR-Database error: 500: Failed to fetch users
+2025-04-11 17:33:35,737-ERROR-Error getting all users: __init__() takes 1 positional argument but 2 were given
+2025-04-11 17:33:35,739-ERROR-Database error: 500: Failed to fetch users
+2025-04-11 17:33:43,064-ERROR-Error getting all users: __init__() takes 1 positional argument but 2 were given
+2025-04-11 17:33:43,064-ERROR-Database error: 500: Failed to fetch users
+2025-04-11 17:33:43,906-ERROR-Error getting all users: __init__() takes 1 positional argument but 2 were given
+2025-04-11 17:33:43,910-ERROR-Database error: 500: Failed to fetch users
+2025-04-11 17:33:44,102-ERROR-Error getting all users: __init__() takes 1 positional argument but 2 were given
+2025-04-11 17:33:44,104-ERROR-Database error: 500: Failed to fetch users
+2025-04-11 17:36:12,804-ERROR-Error getting all users: __init__() takes 1 positional argument but 2 were given
+2025-04-11 17:36:12,806-ERROR-Database error: 500: Failed to fetch users
+2025-04-11 17:36:16,254-ERROR-\u2705 Database connected successfully!
+2025-04-11 17:38:33,047-ERROR-\u2705 Database connected successfully!
+2025-04-11 17:39:06,425-ERROR-\u2705 Database connected successfully!
+2025-04-11 17:39:12,939-ERROR-Error getting all users: name 'Useri' is not defined
+2025-04-11 17:39:12,944-ERROR-Database error: 500: Failed to fetch users
+2025-04-11 17:39:15,829-ERROR-\u2705 Database connected successfully!
+2025-04-11 17:39:16,057-ERROR-Error getting all users: __init__() takes 1 positional argument but 2 were given
+2025-04-11 17:39:16,057-ERROR-Database error: 500: Failed to fetch users
+2025-04-11 17:39:18,291-ERROR-Error getting all users: __init__() takes 1 positional argument but 2 were given
+2025-04-11 17:39:18,293-ERROR-Database error: 500: Failed to fetch users
+2025-04-11 17:39:48,150-ERROR-Error getting all users: __init__() takes 1 positional argument but 2 were given
+2025-04-11 17:39:48,153-ERROR-Database error: 500: Failed to fetch users
+2025-04-11 17:39:51,149-ERROR-\u2705 Database connected successfully!
+2025-04-11 17:39:51,395-ERROR-Error getting all users: __init__() takes 1 positional argument but 2 were given
+2025-04-11 17:39:51,395-ERROR-Database error: 500: Failed to fetch users
+2025-04-11 17:40:14,000-ERROR-Error getting all users: __init__() takes 1 positional argument but 2 were given
+2025-04-11 17:40:14,002-ERROR-Database error: 500: Failed to fetch users
+2025-04-11 17:40:17,002-ERROR-\u2705 Database connected successfully!
+2025-04-11 17:40:17,323-ERROR-Error getting all users: __init__() takes 1 positional argument but 7 were given
+2025-04-11 17:40:17,325-ERROR-Database error: 500: Failed to fetch users
+2025-04-11 17:40:25,446-ERROR-Error getting all users: __init__() takes 1 positional argument but 7 were given
+2025-04-11 17:40:25,451-ERROR-Database error: 500: Failed to fetch users
+2025-04-11 17:40:29,272-ERROR-\u2705 Database connected successfully!
+2025-04-11 17:40:29,568-ERROR-Error getting all users: src.models.user.User() argument after ** must be a mapping, not Row
+2025-04-11 17:40:29,570-ERROR-Database error: 500: Failed to fetch users
+2025-04-11 17:40:43,619-ERROR-Error getting all users: src.models.user.User() argument after ** must be a mapping, not Row
+2025-04-11 17:40:43,625-ERROR-Database error: 500: Failed to fetch users
+2025-04-11 17:40:47,300-ERROR-\u2705 Database connected successfully!
+2025-04-11 17:41:34,853-ERROR-\u2705 Database connected successfully!
+2025-04-11 17:41:59,249-ERROR-\u2705 Database connected successfully!
+2025-04-11 17:41:59,465-ERROR-Error getting all users: src.models.user.User() argument after ** must be a mapping, not Row
+2025-04-11 17:41:59,465-ERROR-Database error: 500: Failed to fetch users
+2025-04-11 17:46:59,860-ERROR-\u2705 Database connected successfully!
+2025-04-11 17:47:33,739-ERROR-\u2705 Database connected successfully!
+2025-04-11 17:48:07,336-ERROR-\u2705 Database connected successfully!
+2025-04-11 17:48:40,528-ERROR-\u2705 Database connected successfully!
+2025-04-11 17:49:13,625-ERROR-\u2705 Database connected successfully!
+2025-04-11 17:49:46,701-ERROR-\u2705 Database connected successfully!
+2025-04-11 17:53:53,177-ERROR-\u2705 Database connected successfully!
+2025-04-11 17:54:26,602-ERROR-\u2705 Database connected successfully!
+2025-04-11 17:54:59,860-ERROR-\u2705 Database connected successfully!
+2025-04-11 17:55:32,983-ERROR-\u2705 Database connected successfully!
+2025-04-11 17:56:06,216-ERROR-\u2705 Database connected successfully!
+2025-04-11 17:57:58,790-ERROR-\u2705 Database connected successfully!
+2025-04-11 17:58:08,910-ERROR-Current Login User role not found (pymysql.err.ProgrammingError) (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':username' at line 1")
+[SQL: SELECT role FROM users WHERE username:username]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-04-11 17:58:08,920-ERROR-Database error: 5 validation errors:
+  {'type': 'missing', 'loc': ('response', 'id'), 'msg': 'Field required', 'input': {'message': 'You Are not Autherise to update user'}}
+  {'type': 'missing', 'loc': ('response', 'email'), 'msg': 'Field required', 'input': {'message': 'You Are not Autherise to update user'}}
+  {'type': 'missing', 'loc': ('response', 'username'), 'msg': 'Field required', 'input': {'message': 'You Are not Autherise to update user'}}
+  {'type': 'missing', 'loc': ('response', 'is_active'), 'msg': 'Field required', 'input': {'message': 'You Are not Autherise to update user'}}
+  {'type': 'missing', 'loc': ('response', 'role'), 'msg': 'Field required', 'input': {'message': 'You Are not Autherise to update user'}}
+
+2025-04-11 17:58:55,269-ERROR-Current Login User role not found (pymysql.err.ProgrammingError) (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':username' at line 1")
+[SQL: SELECT role FROM users WHERE username:username]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-04-11 17:58:55,269-ERROR-Database error: 5 validation errors:
+  {'type': 'missing', 'loc': ('response', 'id'), 'msg': 'Field required', 'input': {'message': 'You Are not Autherise to update user'}}
+  {'type': 'missing', 'loc': ('response', 'email'), 'msg': 'Field required', 'input': {'message': 'You Are not Autherise to update user'}}
+  {'type': 'missing', 'loc': ('response', 'username'), 'msg': 'Field required', 'input': {'message': 'You Are not Autherise to update user'}}
+  {'type': 'missing', 'loc': ('response', 'is_active'), 'msg': 'Field required', 'input': {'message': 'You Are not Autherise to update user'}}
+  {'type': 'missing', 'loc': ('response', 'role'), 'msg': 'Field required', 'input': {'message': 'You Are not Autherise to update user'}}
+
+2025-04-11 18:00:08,547-ERROR-Current Login User role not found (pymysql.err.ProgrammingError) (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':username' at line 1")
+[SQL: SELECT role FROM users WHERE username:username]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-04-11 18:00:08,547-ERROR-Database error: 5 validation errors:
+  {'type': 'missing', 'loc': ('response', 'id'), 'msg': 'Field required', 'input': {'message': 'You Are not Autherise to update user'}}
+  {'type': 'missing', 'loc': ('response', 'email'), 'msg': 'Field required', 'input': {'message': 'You Are not Autherise to update user'}}
+  {'type': 'missing', 'loc': ('response', 'username'), 'msg': 'Field required', 'input': {'message': 'You Are not Autherise to update user'}}
+  {'type': 'missing', 'loc': ('response', 'is_active'), 'msg': 'Field required', 'input': {'message': 'You Are not Autherise to update user'}}
+  {'type': 'missing', 'loc': ('response', 'role'), 'msg': 'Field required', 'input': {'message': 'You Are not Autherise to update user'}}
+
+2025-04-11 18:00:12,417-ERROR-\u2705 Database connected successfully!
+2025-04-11 18:00:12,787-ERROR-Database error: 5 validation errors:
+  {'type': 'missing', 'loc': ('response', 'id'), 'msg': 'Field required', 'input': {'message': 'Employee updated successfully', 'updated_employee': ['email=user@example.com,role=vendore on username=string']}}
+  {'type': 'missing', 'loc': ('response', 'email'), 'msg': 'Field required', 'input': {'message': 'Employee updated successfully', 'updated_employee': ['email=user@example.com,role=vendore on username=string']}}
+  {'type': 'missing', 'loc': ('response', 'username'), 'msg': 'Field required', 'input': {'message': 'Employee updated successfully', 'updated_employee': ['email=user@example.com,role=vendore on username=string']}}
+  {'type': 'missing', 'loc': ('response', 'is_active'), 'msg': 'Field required', 'input': {'message': 'Employee updated successfully', 'updated_employee': ['email=user@example.com,role=vendore on username=string']}}
+  {'type': 'missing', 'loc': ('response', 'role'), 'msg': 'Field required', 'input': {'message': 'Employee updated successfully', 'updated_employee': ['email=user@example.com,role=vendore on username=string']}}
+
+2025-04-11 18:01:05,537-ERROR-\u2705 Database connected successfully!
+2025-04-11 18:01:06,249-ERROR-Database error: 5 validation errors:
+  {'type': 'missing', 'loc': ('response', 'id'), 'msg': 'Field required', 'input': {'message': 'Employee updated successfully', 'updated_employee': ['email=user@example.com,role=vendore on username=string']}}
+  {'type': 'missing', 'loc': ('response', 'email'), 'msg': 'Field required', 'input': {'message': 'Employee updated successfully', 'updated_employee': ['email=user@example.com,role=vendore on username=string']}}
+  {'type': 'missing', 'loc': ('response', 'username'), 'msg': 'Field required', 'input': {'message': 'Employee updated successfully', 'updated_employee': ['email=user@example.com,role=vendore on username=string']}}
+  {'type': 'missing', 'loc': ('response', 'is_active'), 'msg': 'Field required', 'input': {'message': 'Employee updated successfully', 'updated_employee': ['email=user@example.com,role=vendore on username=string']}}
+  {'type': 'missing', 'loc': ('response', 'role'), 'msg': 'Field required', 'input': {'message': 'Employee updated successfully', 'updated_employee': ['email=user@example.com,role=vendore on username=string']}}
+
+2025-04-11 18:03:49,295-ERROR-Database error: 5 validation errors:
+  {'type': 'missing', 'loc': ('response', 'id'), 'msg': 'Field required', 'input': {'message': 'Employee updated successfully', 'updated_employee': ['email=user@example.com,role=vendore on username=string']}}
+  {'type': 'missing', 'loc': ('response', 'email'), 'msg': 'Field required', 'input': {'message': 'Employee updated successfully', 'updated_employee': ['email=user@example.com,role=vendore on username=string']}}
+  {'type': 'missing', 'loc': ('response', 'username'), 'msg': 'Field required', 'input': {'message': 'Employee updated successfully', 'updated_employee': ['email=user@example.com,role=vendore on username=string']}}
+  {'type': 'missing', 'loc': ('response', 'is_active'), 'msg': 'Field required', 'input': {'message': 'Employee updated successfully', 'updated_employee': ['email=user@example.com,role=vendore on username=string']}}
+  {'type': 'missing', 'loc': ('response', 'role'), 'msg': 'Field required', 'input': {'message': 'Employee updated successfully', 'updated_employee': ['email=user@example.com,role=vendore on username=string']}}
+
+2025-04-11 18:03:53,440-ERROR-\u2705 Database connected successfully!
+2025-04-11 18:03:53,825-ERROR-Database error: 5 validation errors:
+  {'type': 'missing', 'loc': ('response', 'id'), 'msg': 'Field required', 'input': {'message': 'Employee updated successfully', 'updated_employee': ['email=user@example.com,role=vendore on username=string']}}
+  {'type': 'missing', 'loc': ('response', 'email'), 'msg': 'Field required', 'input': {'message': 'Employee updated successfully', 'updated_employee': ['email=user@example.com,role=vendore on username=string']}}
+  {'type': 'missing', 'loc': ('response', 'username'), 'msg': 'Field required', 'input': {'message': 'Employee updated successfully', 'updated_employee': ['email=user@example.com,role=vendore on username=string']}}
+  {'type': 'missing', 'loc': ('response', 'is_active'), 'msg': 'Field required', 'input': {'message': 'Employee updated successfully', 'updated_employee': ['email=user@example.com,role=vendore on username=string']}}
+  {'type': 'missing', 'loc': ('response', 'role'), 'msg': 'Field required', 'input': {'message': 'Employee updated successfully', 'updated_employee': ['email=user@example.com,role=vendore on username=string']}}
+
+2025-04-11 18:06:05,706-ERROR-\u2705 Database connected successfully!
+2025-04-11 18:06:31,141-ERROR-Database error: 5 validation errors:
+  {'type': 'missing', 'loc': ('response', 'id'), 'msg': 'Field required', 'input': {'message': 'Employee updated successfully', 'updated_employee': ['email=user@example.com,role=vendore on username=string']}}
+  {'type': 'missing', 'loc': ('response', 'email'), 'msg': 'Field required', 'input': {'message': 'Employee updated successfully', 'updated_employee': ['email=user@example.com,role=vendore on username=string']}}
+  {'type': 'missing', 'loc': ('response', 'username'), 'msg': 'Field required', 'input': {'message': 'Employee updated successfully', 'updated_employee': ['email=user@example.com,role=vendore on username=string']}}
+  {'type': 'missing', 'loc': ('response', 'is_active'), 'msg': 'Field required', 'input': {'message': 'Employee updated successfully', 'updated_employee': ['email=user@example.com,role=vendore on username=string']}}
+  {'type': 'missing', 'loc': ('response', 'role'), 'msg': 'Field required', 'input': {'message': 'Employee updated successfully', 'updated_employee': ['email=user@example.com,role=vendore on username=string']}}
+
+2025-04-11 18:06:34,932-ERROR-\u2705 Database connected successfully!
+2025-04-11 18:06:35,129-ERROR-Current Login User role not found src.models.user.User() argument after ** must be a mapping, not str
+2025-04-11 18:06:35,129-ERROR-Database error: 500: Failed to get user role
+2025-04-11 18:06:44,093-ERROR-Current Login User role not found src.models.user.User() argument after ** must be a mapping, not str
+2025-04-11 18:06:44,093-ERROR-Database error: 500: Failed to get user role
+2025-04-11 18:06:46,298-ERROR-Current Login User role not found src.models.user.User() argument after ** must be a mapping, not str
+2025-04-11 18:06:46,298-ERROR-Database error: 500: Failed to get user role
+2025-04-11 18:07:16,156-ERROR-Current Login User role not found src.models.user.User() argument after ** must be a mapping, not str
+2025-04-11 18:07:16,156-ERROR-Database error: 500: Failed to get user role
+2025-04-11 18:07:19,411-ERROR-\u2705 Database connected successfully!
+2025-04-11 18:07:19,816-ERROR-Current Login User role not found 'NoneType' object has no attribute '_mapping'
+2025-04-11 18:07:19,818-ERROR-Database error: 500: Failed to get user role
+2025-04-11 18:07:23,389-ERROR-Current Login User role not found 'NoneType' object has no attribute '_mapping'
+2025-04-11 18:07:23,389-ERROR-Database error: 500: Failed to get user role
+2025-04-11 18:08:08,570-ERROR-Current Login User role not found 'NoneType' object has no attribute '_mapping'
+2025-04-11 18:08:08,574-ERROR-Database error: 500: Failed to get user role
+2025-04-11 18:08:11,462-ERROR-\u2705 Database connected successfully!
+2025-04-11 18:08:11,785-ERROR-Current Login User role not found 'NoneType' object has no attribute '_mapping'
+2025-04-11 18:08:11,785-ERROR-Database error: 500: Failed to get user role
+2025-04-11 18:08:49,056-ERROR-Current Login User role not found 'NoneType' object has no attribute '_mapping'
+2025-04-11 18:08:49,056-ERROR-Database error: 500: Failed to get user role
+2025-04-11 18:08:52,553-ERROR-\u2705 Database connected successfully!
+2025-04-11 18:08:52,837-ERROR-Current Login User role not found 'NoneType' object has no attribute '_mapping'
+2025-04-11 18:08:52,838-ERROR-Database error: 500: Failed to get user role
+2025-04-11 18:10:10,454-ERROR-Current Login User role not found 'NoneType' object has no attribute '_mapping'
+2025-04-11 18:10:10,454-ERROR-Database error: 500: Failed to get user role
+2025-04-11 18:10:13,516-ERROR-\u2705 Database connected successfully!
+2025-04-11 18:10:16,761-ERROR-Current Login User role not found 'NoneType' object has no attribute '_mapping'
+2025-04-11 18:10:16,764-ERROR-Database error: 500: Failed to get user role
+2025-04-11 18:10:46,588-ERROR-\u2705 Database connected successfully!
+2025-04-11 18:11:05,471-ERROR-\u2705 Database connected successfully!
+2025-04-11 18:11:05,799-ERROR-Database error: 5 validation errors:
+  {'type': 'missing', 'loc': ('response', 'id'), 'msg': 'Field required', 'input': {'message': 'You Are not Autherise to update user'}}
+  {'type': 'missing', 'loc': ('response', 'email'), 'msg': 'Field required', 'input': {'message': 'You Are not Autherise to update user'}}
+  {'type': 'missing', 'loc': ('response', 'username'), 'msg': 'Field required', 'input': {'message': 'You Are not Autherise to update user'}}
+  {'type': 'missing', 'loc': ('response', 'is_active'), 'msg': 'Field required', 'input': {'message': 'You Are not Autherise to update user'}}
+  {'type': 'missing', 'loc': ('response', 'role'), 'msg': 'Field required', 'input': {'message': 'You Are not Autherise to update user'}}
+
+2025-04-11 18:11:07,217-ERROR-Database error: 5 validation errors:
+  {'type': 'missing', 'loc': ('response', 'id'), 'msg': 'Field required', 'input': {'message': 'You Are not Autherise to update user'}}
+  {'type': 'missing', 'loc': ('response', 'email'), 'msg': 'Field required', 'input': {'message': 'You Are not Autherise to update user'}}
+  {'type': 'missing', 'loc': ('response', 'username'), 'msg': 'Field required', 'input': {'message': 'You Are not Autherise to update user'}}
+  {'type': 'missing', 'loc': ('response', 'is_active'), 'msg': 'Field required', 'input': {'message': 'You Are not Autherise to update user'}}
+  {'type': 'missing', 'loc': ('response', 'role'), 'msg': 'Field required', 'input': {'message': 'You Are not Autherise to update user'}}
+
+2025-04-11 18:12:41,334-ERROR-Database error: 5 validation errors:
+  {'type': 'missing', 'loc': ('response', 'id'), 'msg': 'Field required', 'input': {'message': 'You Are not Autherise to update user'}}
+  {'type': 'missing', 'loc': ('response', 'email'), 'msg': 'Field required', 'input': {'message': 'You Are not Autherise to update user'}}
+  {'type': 'missing', 'loc': ('response', 'username'), 'msg': 'Field required', 'input': {'message': 'You Are not Autherise to update user'}}
+  {'type': 'missing', 'loc': ('response', 'is_active'), 'msg': 'Field required', 'input': {'message': 'You Are not Autherise to update user'}}
+  {'type': 'missing', 'loc': ('response', 'role'), 'msg': 'Field required', 'input': {'message': 'You Are not Autherise to update user'}}
+
+2025-04-11 18:12:45,565-ERROR-\u2705 Database connected successfully!
+2025-04-11 18:12:45,873-ERROR-Database error: 5 validation errors:
+  {'type': 'missing', 'loc': ('response', 'id'), 'msg': 'Field required', 'input': {'message': 'You Are not Autherise to update user'}}
+  {'type': 'missing', 'loc': ('response', 'email'), 'msg': 'Field required', 'input': {'message': 'You Are not Autherise to update user'}}
+  {'type': 'missing', 'loc': ('response', 'username'), 'msg': 'Field required', 'input': {'message': 'You Are not Autherise to update user'}}
+  {'type': 'missing', 'loc': ('response', 'is_active'), 'msg': 'Field required', 'input': {'message': 'You Are not Autherise to update user'}}
+  {'type': 'missing', 'loc': ('response', 'role'), 'msg': 'Field required', 'input': {'message': 'You Are not Autherise to update user'}}
+
+2025-04-11 18:13:42,894-ERROR-Database error: 5 validation errors:
+  {'type': 'missing', 'loc': ('response', 'id'), 'msg': 'Field required', 'input': {'message': 'You Are not Autherise to update user'}}
+  {'type': 'missing', 'loc': ('response', 'email'), 'msg': 'Field required', 'input': {'message': 'You Are not Autherise to update user'}}
+  {'type': 'missing', 'loc': ('response', 'username'), 'msg': 'Field required', 'input': {'message': 'You Are not Autherise to update user'}}
+  {'type': 'missing', 'loc': ('response', 'is_active'), 'msg': 'Field required', 'input': {'message': 'You Are not Autherise to update user'}}
+  {'type': 'missing', 'loc': ('response', 'role'), 'msg': 'Field required', 'input': {'message': 'You Are not Autherise to update user'}}
+
+2025-04-11 18:13:46,591-ERROR-\u2705 Database connected successfully!
+2025-04-11 18:13:46,950-ERROR-Database error: 5 validation errors:
+  {'type': 'missing', 'loc': ('response', 'id'), 'msg': 'Field required', 'input': {'message': 'You Are not Autherise to update user'}}
+  {'type': 'missing', 'loc': ('response', 'email'), 'msg': 'Field required', 'input': {'message': 'You Are not Autherise to update user'}}
+  {'type': 'missing', 'loc': ('response', 'username'), 'msg': 'Field required', 'input': {'message': 'You Are not Autherise to update user'}}
+  {'type': 'missing', 'loc': ('response', 'is_active'), 'msg': 'Field required', 'input': {'message': 'You Are not Autherise to update user'}}
+  {'type': 'missing', 'loc': ('response', 'role'), 'msg': 'Field required', 'input': {'message': 'You Are not Autherise to update user'}}
+
+2025-04-11 18:13:56,821-ERROR-Database error: 5 validation errors:
+  {'type': 'missing', 'loc': ('response', 'id'), 'msg': 'Field required', 'input': {'message': 'You Are not Autherise to update user'}}
+  {'type': 'missing', 'loc': ('response', 'email'), 'msg': 'Field required', 'input': {'message': 'You Are not Autherise to update user'}}
+  {'type': 'missing', 'loc': ('response', 'username'), 'msg': 'Field required', 'input': {'message': 'You Are not Autherise to update user'}}
+  {'type': 'missing', 'loc': ('response', 'is_active'), 'msg': 'Field required', 'input': {'message': 'You Are not Autherise to update user'}}
+  {'type': 'missing', 'loc': ('response', 'role'), 'msg': 'Field required', 'input': {'message': 'You Are not Autherise to update user'}}
+
+2025-04-11 18:13:57,723-ERROR-Database error: 5 validation errors:
+  {'type': 'missing', 'loc': ('response', 'id'), 'msg': 'Field required', 'input': {'message': 'You Are not Autherise to update user'}}
+  {'type': 'missing', 'loc': ('response', 'email'), 'msg': 'Field required', 'input': {'message': 'You Are not Autherise to update user'}}
+  {'type': 'missing', 'loc': ('response', 'username'), 'msg': 'Field required', 'input': {'message': 'You Are not Autherise to update user'}}
+  {'type': 'missing', 'loc': ('response', 'is_active'), 'msg': 'Field required', 'input': {'message': 'You Are not Autherise to update user'}}
+  {'type': 'missing', 'loc': ('response', 'role'), 'msg': 'Field required', 'input': {'message': 'You Are not Autherise to update user'}}
+
+2025-04-11 18:15:40,027-ERROR-Database error: 5 validation errors:
+  {'type': 'missing', 'loc': ('response', 'id'), 'msg': 'Field required', 'input': {'message': 'You Are not Autherise to update user'}}
+  {'type': 'missing', 'loc': ('response', 'email'), 'msg': 'Field required', 'input': {'message': 'You Are not Autherise to update user'}}
+  {'type': 'missing', 'loc': ('response', 'username'), 'msg': 'Field required', 'input': {'message': 'You Are not Autherise to update user'}}
+  {'type': 'missing', 'loc': ('response', 'is_active'), 'msg': 'Field required', 'input': {'message': 'You Are not Autherise to update user'}}
+  {'type': 'missing', 'loc': ('response', 'role'), 'msg': 'Field required', 'input': {'message': 'You Are not Autherise to update user'}}
+
+2025-04-11 18:15:44,199-ERROR-\u2705 Database connected successfully!
+2025-04-11 18:15:44,495-ERROR-Database error: 403: You are not authorized to update this user
+2025-04-11 18:16:18,121-ERROR-\u2705 Database connected successfully!
+2025-04-11 18:16:51,203-ERROR-\u2705 Database connected successfully!
+2025-04-11 18:21:53,244-ERROR-\u2705 Database connected successfully!
+2025-04-11 18:22:26,326-ERROR-\u2705 Database connected successfully!
+2025-04-11 18:22:59,578-ERROR-\u2705 Database connected successfully!
+2025-04-11 18:23:32,802-ERROR-\u2705 Database connected successfully!
+2025-04-11 18:24:06,828-ERROR-\u2705 Database connected successfully!
+2025-04-11 18:24:39,935-ERROR-\u2705 Database connected successfully!
+2025-04-11 18:25:13,119-ERROR-\u2705 Database connected successfully!
+2025-04-11 18:26:54,810-ERROR-Database error: 403: You are not authorized to update this user
+2025-04-11 18:26:58,602-ERROR-\u2705 Database connected successfully!
+2025-04-11 18:26:59,008-ERROR-Database error: 403: You are not authorized to update this user
+2025-04-11 18:27:10,295-ERROR-loggin error (pymysql.err.ProgrammingError) (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':' at line 1")
+[SQL: SELECT * from users WHERE username=:]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-04-11 18:27:23,860-ERROR-Invalid Token
+2025-04-11 18:27:27,293-ERROR-Invalid Token
+2025-04-11 18:27:37,400-ERROR-loggin error (pymysql.err.ProgrammingError) (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':' at line 1")
+[SQL: SELECT * from users WHERE username=:]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-04-11 18:27:50,681-ERROR-Invalid Token
+2025-04-11 18:27:53,535-ERROR-Invalid Token
+2025-04-11 18:28:00,661-ERROR-loggin error (pymysql.err.ProgrammingError) (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':' at line 1")
+[SQL: SELECT * from users WHERE username=:]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-04-11 18:28:13,728-ERROR-Invalid Token
+2025-04-11 18:28:16,931-ERROR-Invalid Token
+2025-04-11 18:28:57,089-ERROR-loggin error (pymysql.err.ProgrammingError) (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':' at line 1")
+[SQL: SELECT * from users WHERE username=:]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-04-11 18:29:41,688-ERROR-loggin error (pymysql.err.ProgrammingError) (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':' at line 1")
+[SQL: SELECT * from users WHERE username=:]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-04-11 18:29:45,632-ERROR-\u2705 Database connected successfully!
+2025-04-11 18:29:53,191-ERROR-Invalid Token
+2025-04-11 18:30:05,893-ERROR-Invalid Token
+2025-04-11 18:30:16,511-ERROR-Invalid Token
+2025-04-11 18:30:34,047-ERROR-\u2705 Database connected successfully!
+2025-04-11 18:30:39,486-ERROR-loggin error 'list' object has no attribute 'password'
+2025-04-11 18:30:43,510-ERROR-Invalid Token
+2025-04-11 18:30:46,108-ERROR-Invalid Token
+2025-04-11 18:30:46,237-ERROR-Invalid Token
+2025-04-11 18:30:46,477-ERROR-Invalid Token
+2025-04-11 18:30:46,662-ERROR-Invalid Token
+2025-04-11 18:30:46,837-ERROR-Invalid Token
+2025-04-11 18:30:47,018-ERROR-Invalid Token
+2025-04-11 18:30:47,227-ERROR-Invalid Token
+2025-04-11 18:31:56,666-ERROR-Invalid Token
+2025-04-11 18:31:59,968-ERROR-\u2705 Database connected successfully!
+2025-04-11 18:32:08,357-ERROR-loggin error 'list' object has no attribute 'password'
+2025-04-11 18:32:32,967-ERROR-\u2705 Database connected successfully!
+2025-04-11 18:33:06,824-ERROR-\u2705 Database connected successfully!
+2025-04-11 18:33:11,223-ERROR-loggin error 'list' object has no attribute 'username'
+2025-04-11 18:33:31,969-ERROR-Invalid Token
+2025-04-11 18:35:33,246-ERROR-\u2705 Database connected successfully!
+2025-04-11 18:35:50,248-ERROR-\u2705 Database connected successfully!
+2025-04-11 18:37:17,222-ERROR-loggin error 'list' object has no attribute 'username'
+2025-04-11 18:37:20,424-ERROR-\u2705 Database connected successfully!
+2025-04-11 18:37:21,549-ERROR-Invalid Token
+2025-04-11 18:41:05,015-ERROR-\u2705 Database connected successfully!
+2025-04-11 18:41:31,500-ERROR-\u2705 Database connected successfully!
+2025-04-11 18:42:05,073-ERROR-\u2705 Database connected successfully!
+2025-04-11 18:42:25,276-ERROR-Database error: 403: You are not authorized to update this user
+2025-04-11 18:43:31,522-ERROR-Database error: 403: You are not authorized to update this user
+2025-04-11 18:43:35,226-ERROR-\u2705 Database connected successfully!
+2025-04-11 18:43:35,488-ERROR-Database error: 403: You are not authorized to update this user
+2025-04-11 18:43:38,607-ERROR-Database error: 403: You are not authorized to update this user
+2025-04-11 18:44:44,110-ERROR-Database error: 403: You are not authorized to update this user
+2025-04-11 18:44:48,204-ERROR-\u2705 Database connected successfully!
+2025-04-11 18:44:48,507-ERROR-Database error: 403: You are not authorized to update this user
+2025-04-11 18:46:04,335-ERROR-Database error: 403: You are not authorized to update this user
+2025-04-11 18:46:07,921-ERROR-\u2705 Database connected successfully!
+2025-04-11 18:46:08,231-ERROR-Database error: 403: You are not authorized to update this user
+2025-04-11 18:46:30,259-ERROR-Database error: 403: You are not authorized to update this user
+2025-04-11 18:46:33,557-ERROR-\u2705 Database connected successfully!
+2025-04-11 18:46:41,220-ERROR-Database error: 403: You are not authorized to update this user
+2025-04-11 18:47:06,678-ERROR-\u2705 Database connected successfully!
+2025-04-11 18:47:40,863-ERROR-\u2705 Database connected successfully!
+2025-04-11 18:47:45,336-ERROR-Database error: 5 validation errors:
+  {'type': 'missing', 'loc': ('response', 'id'), 'msg': 'Field required', 'input': {'message': 'Employee updated successfully', 'updated_employee': ['email=user@example.com,role=vendore on username=string']}}
+  {'type': 'missing', 'loc': ('response', 'email'), 'msg': 'Field required', 'input': {'message': 'Employee updated successfully', 'updated_employee': ['email=user@example.com,role=vendore on username=string']}}
+  {'type': 'missing', 'loc': ('response', 'username'), 'msg': 'Field required', 'input': {'message': 'Employee updated successfully', 'updated_employee': ['email=user@example.com,role=vendore on username=string']}}
+  {'type': 'missing', 'loc': ('response', 'is_active'), 'msg': 'Field required', 'input': {'message': 'Employee updated successfully', 'updated_employee': ['email=user@example.com,role=vendore on username=string']}}
+  {'type': 'missing', 'loc': ('response', 'role'), 'msg': 'Field required', 'input': {'message': 'Employee updated successfully', 'updated_employee': ['email=user@example.com,role=vendore on username=string']}}
+
+2025-04-11 18:47:48,740-ERROR-\u2705 Database connected successfully!
+2025-04-11 18:47:54,400-ERROR-Database error: 5 validation errors:
+  {'type': 'missing', 'loc': ('response', 'id'), 'msg': 'Field required', 'input': {'message': 'Employee updated successfully', 'updated_employee': ['email=user@example.com,role=manager on username=string']}}
+  {'type': 'missing', 'loc': ('response', 'email'), 'msg': 'Field required', 'input': {'message': 'Employee updated successfully', 'updated_employee': ['email=user@example.com,role=manager on username=string']}}
+  {'type': 'missing', 'loc': ('response', 'username'), 'msg': 'Field required', 'input': {'message': 'Employee updated successfully', 'updated_employee': ['email=user@example.com,role=manager on username=string']}}
+  {'type': 'missing', 'loc': ('response', 'is_active'), 'msg': 'Field required', 'input': {'message': 'Employee updated successfully', 'updated_employee': ['email=user@example.com,role=manager on username=string']}}
+  {'type': 'missing', 'loc': ('response', 'role'), 'msg': 'Field required', 'input': {'message': 'Employee updated successfully', 'updated_employee': ['email=user@example.com,role=manager on username=string']}}
+
+2025-04-11 18:47:56,778-ERROR-Database error: 5 validation errors:
+  {'type': 'missing', 'loc': ('response', 'id'), 'msg': 'Field required', 'input': {'message': 'Employee updated successfully', 'updated_employee': ['email=user@example.com,role=manager on username=string']}}
+  {'type': 'missing', 'loc': ('response', 'email'), 'msg': 'Field required', 'input': {'message': 'Employee updated successfully', 'updated_employee': ['email=user@example.com,role=manager on username=string']}}
+  {'type': 'missing', 'loc': ('response', 'username'), 'msg': 'Field required', 'input': {'message': 'Employee updated successfully', 'updated_employee': ['email=user@example.com,role=manager on username=string']}}
+  {'type': 'missing', 'loc': ('response', 'is_active'), 'msg': 'Field required', 'input': {'message': 'Employee updated successfully', 'updated_employee': ['email=user@example.com,role=manager on username=string']}}
+  {'type': 'missing', 'loc': ('response', 'role'), 'msg': 'Field required', 'input': {'message': 'Employee updated successfully', 'updated_employee': ['email=user@example.com,role=manager on username=string']}}
+
+2025-04-11 18:52:49,463-ERROR-\u2705 Database connected successfully!
+2025-04-11 18:53:26,594-ERROR-\u2705 Database connected successfully!
+2025-04-11 18:53:34,788-ERROR-\u2705 Database connected successfully!
+2025-04-11 18:53:43,033-ERROR-\u2705 Database connected successfully!
+2025-04-11 18:56:40,229-ERROR-\u2705 Database connected successfully!
+2025-04-11 18:57:13,134-ERROR-\u2705 Database connected successfully!
+2025-04-11 19:02:35,684-ERROR-\u2705 Database connected successfully!
+2025-04-11 19:03:07,956-ERROR-\u2705 Database connected successfully!
+2025-04-11 19:04:24,173-ERROR-Update User: name 'MessageResponse' is not defined
+2025-04-11 19:04:24,173-ERROR-Database error: 500: name 'MessageResponse' is not defined
+2025-04-11 19:04:25,836-ERROR-\u2705 Database connected successfully!
+2025-04-11 19:04:41,518-ERROR-Database error: 6 validation errors:
+  {'type': 'missing', 'loc': ('response', 'ShowUser', 'id'), 'msg': 'Field required', 'input': {'message=': 'user updated successfully: email=user@example.com, role=manager on username=string'}}
+  {'type': 'missing', 'loc': ('response', 'ShowUser', 'email'), 'msg': 'Field required', 'input': {'message=': 'user updated successfully: email=user@example.com, role=manager on username=string'}}
+  {'type': 'missing', 'loc': ('response', 'ShowUser', 'username'), 'msg': 'Field required', 'input': {'message=': 'user updated successfully: email=user@example.com, role=manager on username=string'}}
+  {'type': 'missing', 'loc': ('response', 'ShowUser', 'is_active'), 'msg': 'Field required', 'input': {'message=': 'user updated successfully: email=user@example.com, role=manager on username=string'}}
+  {'type': 'missing', 'loc': ('response', 'ShowUser', 'role'), 'msg': 'Field required', 'input': {'message=': 'user updated successfully: email=user@example.com, role=manager on username=string'}}
+  {'type': 'missing', 'loc': ('response', 'MessageResponse', 'message'), 'msg': 'Field required', 'input': {'message=': 'user updated successfully: email=user@example.com, role=manager on username=string'}}
+
+2025-04-11 19:06:39,189-ERROR-Database error: 6 validation errors:
+  {'type': 'missing', 'loc': ('response', 'ShowUser', 'id'), 'msg': 'Field required', 'input': {'message=': 'user updated successfully: email=user@example.com, role=manager on username=string'}}
+  {'type': 'missing', 'loc': ('response', 'ShowUser', 'email'), 'msg': 'Field required', 'input': {'message=': 'user updated successfully: email=user@example.com, role=manager on username=string'}}
+  {'type': 'missing', 'loc': ('response', 'ShowUser', 'username'), 'msg': 'Field required', 'input': {'message=': 'user updated successfully: email=user@example.com, role=manager on username=string'}}
+  {'type': 'missing', 'loc': ('response', 'ShowUser', 'is_active'), 'msg': 'Field required', 'input': {'message=': 'user updated successfully: email=user@example.com, role=manager on username=string'}}
+  {'type': 'missing', 'loc': ('response', 'ShowUser', 'role'), 'msg': 'Field required', 'input': {'message=': 'user updated successfully: email=user@example.com, role=manager on username=string'}}
+  {'type': 'missing', 'loc': ('response', 'MessageResponse', 'message'), 'msg': 'Field required', 'input': {'message=': 'user updated successfully: email=user@example.com, role=manager on username=string'}}
+
+2025-04-11 19:06:40,888-ERROR-\u2705 Database connected successfully!
+2025-04-11 19:07:13,715-ERROR-\u2705 Database connected successfully!
+2025-04-11 19:07:46,499-ERROR-\u2705 Database connected successfully!
+2025-04-11 19:08:18,882-ERROR-\u2705 Database connected successfully!
+2025-04-11 19:12:26,311-ERROR-\u2705 Database connected successfully!

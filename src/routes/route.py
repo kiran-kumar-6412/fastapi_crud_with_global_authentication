@@ -1,5 +1,5 @@
 from fastapi import APIRouter
-from src.controller.user_routes import router as user_router
+from src.controller.user import router as user_router
 import src.utils.logger as logger
 
 router = APIRouter()

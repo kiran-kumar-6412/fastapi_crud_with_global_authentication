@@ -45,3 +45,6 @@ class User_update(BaseModel):
 class UserActionSchema(BaseModel):
     create_data: Optional[UserCreate] = None
     update_data: Optional[User_update] = None
+
+class MessageResponse(BaseModel):
+    message: str
