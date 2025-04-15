@@ -38,7 +38,7 @@ class UserRepository:
             return users
         except Exception as e:
             logger.logging_error(f"Error getting all users: {str(e)}")
-            raise HTTPException(status_code=500, detail="Failed to fetch users")
+            # raise HTTPException(status_code=500, detail="Failed to fetch users")
     
     @staticmethod
     def Filter_user(id,db:Session):
@@ -58,7 +58,7 @@ class UserRepository:
             return None
         except Exception as e:
             logger.logging_error(f"Error logging in: {str(e)}")
-            raise HTTPException(status_code=500, detail="Failed to fetch login user")
+            #raise HTTPException(status_code=500, detail="Failed to fetch login user")
 
     @staticmethod
     def current_user_role(username, db: Session):
@@ -70,7 +70,7 @@ class UserRepository:
 
         except Exception as e:
             logger.logging_error(f"Current Login User role not found {str(e)}")
-            raise HTTPException(status_code=500, detail="Failed to get user role")
+            #raise HTTPException(status_code=500, detail="Failed to get user role")
 
     @staticmethod
     def update_user(id,schema_user,db:Session):
@@ -78,7 +78,12 @@ class UserRepository:
             result=db.execute(text("SELECT * FROM users WHERE id=:id"),{"id":id})
             user=result.fetchone()
             if not user:
-                raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail=f"User with ID {id} not found")
+                return {
+                "data": None,
+                "status": False,
+                "message": f"User with ID {id} not found"
+            }
+                #raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail=f"User with ID {id} not found")
                 
             sql_update=text("UPDATE users SET email=:email,role=:role WHERE id=:id")
             db.execute(sql_update,{"email":schema_user.email,"role":schema_user.role,"id":id})
@@ -95,15 +100,20 @@ class UserRepository:
         except IntegrityError as e:
             db.rollback()
             if "Duplicate entry" in str(e.orig):
-                raise HTTPException(
-                    status_code=status.HTTP_400_BAD_REQUEST,
-                    detail="Email already exists. Please use a different one."
-                )
-            raise HTTPException(status_code=400, detail="Database integrity error")
+                return {
+                        "data": None,
+                        "status": False,
+                        "message": "Email already exists. Please use a different one."
+                        }
+            #     raise HTTPException(
+            #         status_code=status.HTTP_400_BAD_REQUEST,
+            #         detail="Email already exists. Please use a different one."
+            #     )
+            # raise HTTPException(status_code=400, detail="Database integrity error")
         except Exception as e:
             db.rollback()
             logger.logging_error(f"Update User: {str(e)}")
-            raise HTTPException(status_code=500, detail=str(e))  
+            #raise HTTPException(status_code=500, detail=str(e))  
 
     @staticmethod
     def user_delete(id,db:Session):
@@ -111,11 +121,16 @@ class UserRepository:
             result=db.execute(text("SELECT * FROM users WHERE id=:id"),{"id":id})        
             user=result.first()
             if not user:
-                raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail=f"Employee with ID {id} not found in the database")
+                return {
+                        "data": None,
+                        "status": False,
+                        "message": f"Employee with ID {id} not found in the database"
+                        }
+                #raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail=f"Employee with ID {id} not found in the database")
             sql_quary=text("DELETE FROM users WHERE id=:id")
             db.execute(sql_quary,{"id":id})
             db.commit()
-            return {"message": f"Employee with ID {id} has been successfully deleted"}
+            return {"data":True,"status":True,"message": f"Employee with ID {id} has been successfully deleted"}
         except Exception as e:
             db.rollback()
             logger.logging_error(f"Delete User: {str(e)}")

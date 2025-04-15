@@ -2,9 +2,12 @@ from fastapi import FastAPI
 from src.routes.route import router  # ✅ Absolute Import
 from src.models.base import Base
 from src.database import engine
+from src.models.log import Log
 import src.utils.logger as logger
 
+
 app = FastAPI()
+
 
 try:
     Base.metadata.create_all(bind=engine)  # ✅ Creates tables if not exist

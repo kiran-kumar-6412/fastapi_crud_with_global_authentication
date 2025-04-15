@@ -3,6 +3,7 @@ from sqlalchemy.orm import sessionmaker
 from .utils import logger
 from src.config.config import settings  # Importing Pydantic settings
 
+
 # Get database URL from Pydantic settings
 DB_URL = settings.DATABASE_URL
 
@@ -19,9 +20,9 @@ try:
     
     logger.logging_error("✅ Database connected successfully!")  # Log successful connection
 except Exception as e:
-    error_message = f"❌ Database Connection Error: {str(e)}"
+   # error_message = f"Database Connection Error: {str(e)}"
     
-    logger.logging_error(error_message)  # Log error
+    logger.logging_error("Database Error", f"Database Connection Error: {str(e)}") # Log error
     
     # Fallback: Print error if logging fails
-    print(error_message)
+    #print(error_message)

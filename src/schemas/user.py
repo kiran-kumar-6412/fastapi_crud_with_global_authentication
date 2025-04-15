@@ -1,5 +1,5 @@
 from pydantic import BaseModel, EmailStr
-from typing import Optional
+from typing import Optional,List
 
 # ✅ Base schema for user
 class UserBase(BaseModel):
@@ -13,15 +13,24 @@ class UserCreate(UserBase):
     password: str  # Only required during user creation
 
 # ✅ Schema for showing user (fixing class definition)
-class ShowUser(BaseModel):
+# ✅ Individual user schema
+class UserListResponse(BaseModel):
     id: int
     email: EmailStr
     username: str
     is_active: bool
     role: str
 
-    class Config:  # ✅ Fixed from `config()` to `Config`
-        from_attributes = True
+    class Config:
+        from_attributes = True  # Use this if you're on Pydantic v2
+        
+
+# ✅ Wrapper schema for the full response
+class ShowUser(BaseModel):
+    data: List[UserListResponse]
+    status: bool
+    message: str
+
 
 class Login(BaseModel):
     username: str

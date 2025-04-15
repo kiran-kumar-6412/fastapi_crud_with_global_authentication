@@ -6,6 +6,7 @@ from jwt.exceptions import ExpiredSignatureError,InvalidTokenError
 from fastapi import HTTPException,status,Depends
 from src.schemas.user import TokenData
 from src.config.config import oauth2_scheme
+from sqlalchemy.orm import Session
 
 
 
@@ -42,7 +43,13 @@ def verify_token(token:str=Depends(oauth2_scheme)):
         )
 
     except InvalidTokenError:
-        logger.logging_error("Invalid Token")
-        raise HTTPException(
-            status_code=status.HTTP_401_UNAUTHORIZED, detail="Invalid token"
-        )
+        logger.logging_error("Token ERROR","Invalid Token")
+        return {    
+                "data": None,
+                "status": False,
+                "message": "Invalid Token"
+            }
+    #     #raise 
+    #    # raise HTTPException(
+    #         status_code=status.HTTP_401_UNAUTHORIZED, detail="Invalid token"
+    #     )
