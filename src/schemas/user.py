@@ -43,7 +43,7 @@ class Token(BaseModel):
 
 class TokenData(BaseModel):
     username: str
-    role: str
+    role: str | None=None
 
 
 class User_update(BaseModel):

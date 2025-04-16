@@ -18,18 +18,16 @@ router = APIRouter()
 def login(form_data:OAuth2PasswordRequestForm=Depends(),db:Session=Depends(get_db)): # getting form_data from swagger ui
     return user_services.login(form_data,db)
 
-@router.get("/all",response_model=ShowUser)
+@router.get("/all")
 def get_user(current_user : str = Depends(user_services.current_user),db: Session = Depends(get_db)):  
     return user_services.get_all_users(db)
 
-@router.post("/user-action/{id}",response_model=Union[ShowUser,MessageResponse])
+@router.post("/user-action/{id}")
 def create_or_update_user(id:int,data:UserActionSchema,session_user:str=Depends(user_services.current_user),db:Session=Depends(get_db)):
     #print("Current User:", session_user)
     return user_services.create_or_update_user(id,data,session_user,db)
 
-
-
-@router.get("/{id}",response_model=ShowUser)
+@router.get("/{id}")
 def filter_user(id:int,db:Session=Depends(get_db),username: str = Depends(user_services.current_user)):
     return user_services.filter_user(id,db)
    

@@ -9,17 +9,35 @@ from src.schemas.user import MessageResponse
 
 class UserRepository:
     @staticmethod
+    def check_username_or_email(username:str ,email ,db: Session):
+        try:
+            result=db.execute(text("SELECT username FROM users WHERE username=:username"),{"username":username})
+            username_result=result.first()
+            result=db.execute(text("SELECT email FROM users WHERE email=:email"),{"email":email})
+            email_result=result.first()
+            return {
+            "username_exists": username_result ,
+            "email_exists": email_result 
+        }
+
+        except Exception as e:
+            logger.logging_error(f"username or email validation error{str(e)}")
+
+    @staticmethod
     def create_user(user: dict, db: Session):  # ✅ Pass db directly
         try:
             user_data=user
             user_obj = User(**user_data)  # ✅ Ensure user_data is a dictionary
-            print(user_data,"odj -",user_obj)
+            #print(user_data,"odj -",user_obj)
             db.add(user_obj)
             db.commit()
             db.refresh(user_obj)
+            print("user oject",user_obj)
             return user_obj
+        
         except Exception as e:
             logger.logging_error(f"Error creating user: {str(e)}")
+            raise HTTPException(status.HTTP_406_NOT_ACCEPTABLE,detail=f"error in use creation {str(e)}")
 
     # @staticmethod
     # def user_role(user_role,db:Session):
@@ -61,16 +79,18 @@ class UserRepository:
             #raise HTTPException(status_code=500, detail="Failed to fetch login user")
 
     @staticmethod
-    def current_user_role(username, db: Session):
+    def current_user_role(username, db: Session):       
         try:
             sql = text("SELECT * FROM users WHERE username = :username")
             result = db.execute(sql, {"username": username}).fetchone()
             user = User(**result._mapping)
+            print("your role",user.role,"userdetails",user)
             return user.role
+        
 
         except Exception as e:
             logger.logging_error(f"Current Login User role not found {str(e)}")
-            #raise HTTPException(status_code=500, detail="Failed to get user role")
+            raise HTTPException(status_code=500, detail=f"Failed to get user role {str(e)}")
 
     @staticmethod
     def update_user(id,schema_user,db:Session):
@@ -92,11 +112,7 @@ class UserRepository:
             updated_sql = text("SELECT * FROM users WHERE id = :id")
             updated_result = db.execute(updated_sql, {"id": id}).first()
             user = User(**updated_result._mapping)
-
-            return MessageResponse(
-    message=f"user updated successfully: email={user.email}, role={user.role} on username={user.username}"
-)
-
+            return user
         except IntegrityError as e:
             db.rollback()
             if "Duplicate entry" in str(e.orig):

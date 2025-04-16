@@ -5,8 +5,9 @@ from src.utils import logger
 from jwt.exceptions import ExpiredSignatureError,InvalidTokenError
 from fastapi import HTTPException,status,Depends
 from src.schemas.user import TokenData
-from src.config.config import oauth2_scheme
+from src.config.config import oauth2_scheme,OAuth2PasswordBearer
 from sqlalchemy.orm import Session
+
 
 
 
@@ -24,14 +25,13 @@ def create_token(data:dict):
     except Exception as e:
         logger.logging_error(f"Token Create Error {str(e)}")
 
+oauth2_schemes = OAuth2PasswordBearer(tokenUrl="/users/login")
 
-def verify_token(token:str=Depends(oauth2_scheme)):
-    #print("token getting to  verify token",token)
+def verify_token(token:str=Depends(oauth2_schemes)):
     try:
         payload = jwt.decode(token, SECRETE_KEY, algorithms=[ALGORITHM])
         username: str = payload.get("sub")
         role: str = payload.get("role")
-
         if username is None:
             raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, detail="Invalid token")
         return TokenData(username=username, role=role) # Successfully authenticated
@@ -44,12 +44,12 @@ def verify_token(token:str=Depends(oauth2_scheme)):
 
     except InvalidTokenError:
         logger.logging_error("Token ERROR","Invalid Token")
-        return {    
-                "data": None,
-                "status": False,
-                "message": "Invalid Token"
-            }
+        # return {    
+        #         "data": None,
+        #         "status": False,
+        #         "message": "Invalid Token"
+        #     }
     #     #raise 
-    #    # raise HTTPException(
-    #         status_code=status.HTTP_401_UNAUTHORIZED, detail="Invalid token"
-    #     )
+        raise HTTPException(
+            status_code=status.HTTP_401_UNAUTHORIZED, detail="Invalid token"
+        )
