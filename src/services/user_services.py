@@ -174,6 +174,20 @@ def update_user(id,schema_user,session_username,db):
     login_user_role=UserRepository.current_user_role(session_username,db)
     if login_user_role=="admin":               # only admin can update the user details
        user= UserRepository.update_user(id,schema_user,db)
+
+       if not user:
+            return {
+                "data": None,
+                "status": False,
+                "message": f"User with ID {id} not found"
+            }
+       elif user.email:
+            return {
+                "data": None,
+                "status": False,
+                "message": f"Email id Already associated with another account"
+                }
+       
        users_list = [
                 {
                     "id": user.id,

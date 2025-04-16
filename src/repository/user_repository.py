@@ -98,13 +98,13 @@ class UserRepository:
             result=db.execute(text("SELECT * FROM users WHERE id=:id"),{"id":id})
             user=result.fetchone()
             if not user:
-                return {
-                "data": None,
-                "status": False,
-                "message": f"User with ID {id} not found"
-            }
+               return None
                 #raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail=f"User with ID {id} not found")
-                
+            result=db.execute(text("SELECT * FROM users WHERE email=:email"),{"email":schema_user.email})
+            email=result.fetchone() 
+            if email:
+               return email
+
             sql_update=text("UPDATE users SET email=:email,role=:role WHERE id=:id")
             db.execute(sql_update,{"email":schema_user.email,"role":schema_user.role,"id":id})
             db.commit()
